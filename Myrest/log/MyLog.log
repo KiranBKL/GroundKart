@@ -1,0 +1,1610 @@
+
+03-Oct-2022 13:19:27 INFO - %03-Oct-2022 13:19:27 DEBUG - %03-Oct-2022 13:19:27 INFO - %03-Oct-2022 13:19:31 INFO - %03-Oct-2022 13:20:22 INFO - %03-Oct-2022 13:20:22 ERROR - %03-Oct-2022 13:20:22 FATAL - %03-Oct-2022 13:20:22 DEBUG - %03-Oct-2022 13:20:22 WARN - %03-Oct-2022 13:23:16 INFO - %03-Oct-2022 13:23:16 DEBUG - %03-Oct-2022 13:23:16 INFO - %03-Oct-2022 13:23:17 INFO - %03-Oct-2022 13:50:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 15272 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 13:50:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 13:50:52 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 13:50:53 INFO - Started MyrestApplication in 0.659 seconds (JVM running for 1886.949)
+03-Oct-2022 13:50:57 INFO - Spring rest info
+03-Oct-2022 13:50:57 ERROR - error
+03-Oct-2022 13:50:57 FATAL - fatal
+03-Oct-2022 13:50:57 DEBUG - debug
+03-Oct-2022 13:50:57 WARN - warning
+03-Oct-2022 16:31:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 15272 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 16:31:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 16:31:29 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 16:31:30 INFO - Started MyrestApplication in 1.079 seconds (JVM running for 11524.296)
+03-Oct-2022 16:40:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 15272 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 16:40:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 16:40:00 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 16:40:01 INFO - Started MyrestApplication in 0.943 seconds (JVM running for 12035.551)
+03-Oct-2022 16:40:24 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 15272 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 16:40:24 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 16:40:24 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 16:40:24 INFO - Started MyrestApplication in 0.917 seconds (JVM running for 12058.721)
+03-Oct-2022 16:48:39 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 16:48:39 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 16:48:39 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 16:48:44 INFO - Started MyrestApplication in 5.724 seconds (JVM running for 7.071)
+03-Oct-2022 17:06:21 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:06:21 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:06:21 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:07:18 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:07:18 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:07:18 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:18:39 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:18:39 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:18:39 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:18:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:18:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:18:45 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:18:46 INFO - Started MyrestApplication in 0.757 seconds (JVM running for 1808.328)
+03-Oct-2022 17:19:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:19:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:19:34 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:21:06 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:21:06 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:21:06 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:21:07 INFO - Started MyrestApplication in 1.344 seconds (JVM running for 1949.852)
+03-Oct-2022 17:23:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:23:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:23:00 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:23:01 INFO - Started MyrestApplication in 0.965 seconds (JVM running for 2063.383)
+03-Oct-2022 17:23:30 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:23:30 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:23:30 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:23:31 INFO - Started MyrestApplication in 0.659 seconds (JVM running for 2093.568)
+03-Oct-2022 17:23:55 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:23:55 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:23:55 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:23:56 INFO - Started MyrestApplication in 0.672 seconds (JVM running for 2118.291)
+03-Oct-2022 17:24:18 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:24:18 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:24:18 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:24:18 INFO - Started MyrestApplication in 0.814 seconds (JVM running for 2141.101)
+03-Oct-2022 17:24:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:24:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:24:34 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:24:35 INFO - Started MyrestApplication in 0.896 seconds (JVM running for 2157.75)
+03-Oct-2022 17:24:56 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:24:56 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:24:56 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:24:57 INFO - Started MyrestApplication in 0.694 seconds (JVM running for 2179.539)
+03-Oct-2022 17:27:25 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:27:25 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:27:25 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:27:25 INFO - Started MyrestApplication in 0.87 seconds (JVM running for 2328.035)
+03-Oct-2022 17:27:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:27:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:27:52 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:27:52 INFO - Started MyrestApplication in 0.643 seconds (JVM running for 2354.981)
+03-Oct-2022 17:28:27 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:28:27 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:28:27 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:28:28 INFO - Started MyrestApplication in 0.881 seconds (JVM running for 2390.843)
+03-Oct-2022 17:31:11 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:31:11 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:31:11 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:31:19 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14816 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:31:19 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:31:19 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:31:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 18564 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:31:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:31:37 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:34:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:34:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:34:00 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:34:08 INFO - Started MyrestApplication in 8.697 seconds (JVM running for 10.248)
+03-Oct-2022 17:51:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:51:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:51:58 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:52:49 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:52:49 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:52:49 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:53:32 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:53:32 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:53:32 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:54:16 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:54:16 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:54:16 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:55:48 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:55:48 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:55:48 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:55:49 INFO - Started MyrestApplication in 0.708 seconds (JVM running for 1310.316)
+03-Oct-2022 17:59:09 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:59:09 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:59:09 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:59:10 INFO - Started MyrestApplication in 0.658 seconds (JVM running for 1511.902)
+03-Oct-2022 17:59:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:59:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:59:31 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:59:32 INFO - Started MyrestApplication in 0.682 seconds (JVM running for 1533.796)
+03-Oct-2022 17:59:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 17:59:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 17:59:41 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 17:59:41 INFO - Started MyrestApplication in 0.601 seconds (JVM running for 1543.155)
+03-Oct-2022 18:02:01 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:02:01 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:02:01 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:02:02 INFO - Started MyrestApplication in 0.615 seconds (JVM running for 1683.472)
+03-Oct-2022 18:04:53 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:04:53 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:04:53 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:04:53 INFO - Started MyrestApplication in 0.576 seconds (JVM running for 1854.883)
+03-Oct-2022 18:08:12 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:08:12 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:08:12 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:14:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:14:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:14:34 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:14:39 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:14:39 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:14:39 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:14:40 INFO - Started MyrestApplication in 0.671 seconds (JVM running for 2441.679)
+03-Oct-2022 18:14:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:14:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:14:52 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:14:52 INFO - Started MyrestApplication in 0.558 seconds (JVM running for 2454.086)
+03-Oct-2022 18:21:13 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:21:13 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:21:13 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:22:30 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:22:30 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:22:30 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:22:50 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:22:50 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:22:50 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:23:16 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:23:16 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:23:16 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:26:25 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:26:25 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:26:25 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:30:04 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:30:04 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:30:04 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:31:26 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:31:26 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:31:26 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:34:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:34:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:34:29 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:34:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:34:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:34:52 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:38:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:38:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:38:31 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:39:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:39:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:39:29 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:47:44 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:47:44 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:47:44 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:48:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:48:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:48:00 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:48:01 INFO - Started MyrestApplication in 0.651 seconds (JVM running for 4442.286)
+03-Oct-2022 18:53:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:53:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:53:29 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:53:29 INFO - Started MyrestApplication in 0.629 seconds (JVM running for 4770.922)
+03-Oct-2022 18:55:50 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:55:50 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:55:50 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:55:51 INFO - Started MyrestApplication in 0.664 seconds (JVM running for 4912.788)
+03-Oct-2022 18:57:32 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:57:32 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:57:32 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:59:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:59:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:59:31 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:59:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:59:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:59:36 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:59:36 INFO - Started MyrestApplication in 0.605 seconds (JVM running for 5137.947)
+03-Oct-2022 18:59:51 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2668 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 18:59:51 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 18:59:51 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 18:59:52 INFO - Started MyrestApplication in 0.55 seconds (JVM running for 5153.512)
+03-Oct-2022 20:27:12 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 20:27:12 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 20:27:12 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 20:27:16 INFO - Started MyrestApplication in 3.944 seconds (JVM running for 4.833)
+03-Oct-2022 20:33:26 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 20:33:26 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 20:33:26 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 20:33:26 INFO - Started MyrestApplication in 0.732 seconds (JVM running for 375.356)
+03-Oct-2022 21:04:48 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:04:48 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:04:48 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:06:03 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:06:03 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:06:03 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:06:04 INFO - Started MyrestApplication in 0.733 seconds (JVM running for 2332.709)
+03-Oct-2022 21:12:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:12:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:12:46 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:12:47 INFO - Started MyrestApplication in 0.646 seconds (JVM running for 2735.8)
+03-Oct-2022 21:15:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:15:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:15:37 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:15:38 INFO - Started MyrestApplication in 0.624 seconds (JVM running for 2906.936)
+03-Oct-2022 21:26:28 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:26:28 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:26:28 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:26:28 INFO - Started MyrestApplication in 0.587 seconds (JVM running for 3557.023)
+03-Oct-2022 21:39:10 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:39:10 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:39:10 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:39:10 INFO - Started MyrestApplication in 0.597 seconds (JVM running for 4318.969)
+03-Oct-2022 21:46:30 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:46:30 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:46:30 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:46:31 INFO - Started MyrestApplication in 1.208 seconds (JVM running for 4759.552)
+03-Oct-2022 21:46:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:46:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:46:46 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:46:47 INFO - Started MyrestApplication in 1.235 seconds (JVM running for 4775.973)
+03-Oct-2022 21:58:53 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 21:58:53 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 21:58:53 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 21:58:55 INFO - Started MyrestApplication in 1.621 seconds (JVM running for 5503.48)
+03-Oct-2022 22:00:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:00:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:00:14 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:00:15 INFO - Started MyrestApplication in 1.142 seconds (JVM running for 5583.984)
+03-Oct-2022 22:02:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:02:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:02:33 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:02:34 INFO - Started MyrestApplication in 1.273 seconds (JVM running for 5723.234)
+03-Oct-2022 22:08:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:08:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:08:31 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:08:32 INFO - Started MyrestApplication in 0.884 seconds (JVM running for 6080.707)
+03-Oct-2022 22:10:53 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:10:53 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:10:53 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:10:53 INFO - Started MyrestApplication in 0.683 seconds (JVM running for 6222.378)
+03-Oct-2022 22:15:16 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:15:16 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:15:16 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:15:17 INFO - Started MyrestApplication in 0.751 seconds (JVM running for 6485.702)
+03-Oct-2022 22:15:21 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:15:21 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:15:21 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:15:21 INFO - Started MyrestApplication in 0.903 seconds (JVM running for 6490.258)
+03-Oct-2022 22:18:02 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:18:02 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:18:02 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:18:03 INFO - Started MyrestApplication in 0.659 seconds (JVM running for 6651.691)
+03-Oct-2022 22:21:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:21:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:21:23 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:21:24 INFO - Started MyrestApplication in 0.841 seconds (JVM running for 6852.59)
+03-Oct-2022 22:24:17 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:24:17 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:24:17 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:24:18 INFO - Started MyrestApplication in 0.676 seconds (JVM running for 7026.456)
+03-Oct-2022 22:25:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:25:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:25:46 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:25:47 INFO - Started MyrestApplication in 0.612 seconds (JVM running for 7115.767)
+03-Oct-2022 22:26:53 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:26:53 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:26:53 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:26:54 INFO - Started MyrestApplication in 0.809 seconds (JVM running for 7182.837)
+03-Oct-2022 22:28:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:28:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:28:33 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:28:33 INFO - Started MyrestApplication in 0.844 seconds (JVM running for 7282.222)
+03-Oct-2022 22:30:15 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:30:15 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:30:15 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:30:16 INFO - Started MyrestApplication in 0.627 seconds (JVM running for 7384.438)
+03-Oct-2022 22:31:50 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:31:50 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:31:50 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:31:50 INFO - Started MyrestApplication in 0.642 seconds (JVM running for 7479.053)
+03-Oct-2022 22:50:03 INFO - getting the products
+03-Oct-2022 22:50:12 INFO - getting the products
+03-Oct-2022 22:50:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:50:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:50:36 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:50:37 INFO - Started MyrestApplication in 0.988 seconds (JVM running for 8606.128)
+03-Oct-2022 22:50:40 INFO - getting the products
+03-Oct-2022 22:51:49 INFO - getting the products
+03-Oct-2022 22:52:38 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:52:38 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:52:38 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:52:39 INFO - Started MyrestApplication in 1.094 seconds (JVM running for 8728.252)
+03-Oct-2022 22:52:41 INFO - getting the products
+03-Oct-2022 22:52:49 INFO - getting the products
+03-Oct-2022 22:53:06 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:53:06 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:53:06 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:53:07 INFO - Started MyrestApplication in 1.392 seconds (JVM running for 8756.219)
+03-Oct-2022 22:53:08 INFO - getting the products
+03-Oct-2022 22:53:22 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 14560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:53:22 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:53:22 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:53:25 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16720 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 22:53:25 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 22:53:25 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 22:53:31 INFO - Started MyrestApplication in 6.024 seconds (JVM running for 7.369)
+03-Oct-2022 22:53:36 INFO - getting the products
+03-Oct-2022 22:55:26 INFO - getting the customers
+03-Oct-2022 22:59:20 INFO - getting the product
+03-Oct-2022 22:59:56 INFO - getting the products
+03-Oct-2022 22:59:59 INFO - getting the products
+03-Oct-2022 23:00:07 INFO - getting the product
+03-Oct-2022 23:00:13 INFO - getting the products
+03-Oct-2022 23:00:15 INFO - getting the products
+03-Oct-2022 23:00:23 INFO - getting the product
+03-Oct-2022 23:00:25 INFO - getting the product
+03-Oct-2022 23:02:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16720 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 23:02:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 23:02:45 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 23:02:47 INFO - Started MyrestApplication in 1.8 seconds (JVM running for 563.111)
+03-Oct-2022 23:02:49 INFO - getting the product
+03-Oct-2022 23:02:55 INFO - getting the products
+03-Oct-2022 23:03:35 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16720 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 23:03:35 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 23:03:35 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 23:03:36 INFO - Started MyrestApplication in 1.496 seconds (JVM running for 612.851)
+03-Oct-2022 23:03:40 INFO - getting the products
+03-Oct-2022 23:03:42 INFO - getting the products
+03-Oct-2022 23:06:56 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9676 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 23:06:56 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 23:06:56 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 23:07:02 INFO - Started MyrestApplication in 6.747 seconds (JVM running for 8.293)
+03-Oct-2022 23:10:15 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9676 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 23:10:15 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 23:10:15 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 23:10:16 INFO - Started MyrestApplication in 0.843 seconds (JVM running for 201.745)
+03-Oct-2022 23:10:32 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9676 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+03-Oct-2022 23:10:32 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+03-Oct-2022 23:10:32 INFO - No active profile set, falling back to 1 default profile: "default"
+03-Oct-2022 23:10:33 INFO - Started MyrestApplication in 1.464 seconds (JVM running for 219.36)
+03-Oct-2022 23:10:35 INFO - hicart list getting
+03-Oct-2022 23:10:44 INFO - getting the products
+03-Oct-2022 23:10:53 INFO - getting the customers
+03-Oct-2022 23:13:02 INFO - removing the product
+03-Oct-2022 23:13:16 INFO - new product has been added
+03-Oct-2022 23:13:28 INFO - getting the customers
+03-Oct-2022 23:13:43 INFO - removing the user
+03-Oct-2022 23:15:27 INFO - removing the product
+03-Oct-2022 23:20:30 INFO - updating the product
+03-Oct-2022 23:23:47 INFO - getting the orders of particular user
+03-Oct-2022 23:24:26 INFO - getting items of order
+03-Oct-2022 23:25:12 INFO - accquiring product list
+03-Oct-2022 23:25:17 INFO - acquiring product details
+03-Oct-2022 23:25:20 INFO - hicart list getting
+03-Oct-2022 23:26:51 INFO - hicart list getting
+03-Oct-2022 23:27:16 INFO - hicart list getting
+03-Oct-2022 23:27:16 INFO - hiadded Linerto cart
+03-Oct-2022 23:27:48 INFO - hiremoved Linerremoved cart
+03-Oct-2022 23:28:18 INFO - hiremoved Linerremoved cart
+03-Oct-2022 23:28:48 INFO - hi updated quantity of
+03-Oct-2022 23:29:00 INFO - hicart list getting
+03-Oct-2022 23:29:00 INFO - hiBought the cart
+03-Oct-2022 23:29:42 INFO - hiBought the item from cart
+03-Oct-2022 23:29:42 INFO - hiremoved Linerremoved cart
+03-Oct-2022 23:29:49 INFO - hiBought the item from home
+03-Oct-2022 23:30:13 INFO - higot the order list
+03-Oct-2022 23:30:19 INFO - getting items of order
+03-Oct-2022 23:30:33 INFO - shiva@gmail.comupdated the profile
+04-Oct-2022 11:23:19 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2432 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 11:23:19 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 11:23:19 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 11:23:25 INFO - Started MyrestApplication in 6.106 seconds (JVM running for 7.382)
+04-Oct-2022 11:29:19 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2432 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 11:29:19 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 11:29:19 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 11:29:20 INFO - Started MyrestApplication in 1.013 seconds (JVM running for 362.529)
+04-Oct-2022 11:35:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2432 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 11:35:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 11:35:23 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 11:35:25 INFO - Started MyrestApplication in 1.85 seconds (JVM running for 727.634)
+04-Oct-2022 11:35:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2432 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 11:35:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 11:35:36 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 11:35:38 INFO - Started MyrestApplication in 1.373 seconds (JVM running for 740.314)
+04-Oct-2022 11:36:35 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2432 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 11:36:35 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 11:36:35 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 11:36:37 INFO - Started MyrestApplication in 1.638 seconds (JVM running for 799.33)
+04-Oct-2022 11:38:55 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 2432 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 11:38:55 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 11:38:55 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 11:38:57 INFO - Started MyrestApplication in 1.632 seconds (JVM running for 939.344)
+04-Oct-2022 11:39:43 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13620 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 11:39:43 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 11:39:43 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 11:49:25 INFO - getting the products
+04-Oct-2022 11:49:31 INFO - getting the customers
+04-Oct-2022 11:49:39 INFO - getting the products
+04-Oct-2022 11:51:25 INFO - kiranuser has been added
+04-Oct-2022 11:53:38 INFO - bhuvanuser has been added
+04-Oct-2022 11:53:58 INFO - shiva@gmail.comupdated the profile
+04-Oct-2022 11:55:00 INFO - getting the customers
+04-Oct-2022 11:55:37 INFO - removing the user
+04-Oct-2022 12:00:13 INFO - shivauser has been added
+04-Oct-2022 12:03:08 INFO - new product has been added
+04-Oct-2022 12:08:18 INFO - new product has been added
+04-Oct-2022 12:08:42 INFO - new product has been added
+04-Oct-2022 12:10:55 INFO - new product has been added
+04-Oct-2022 12:11:30 INFO - new product has been added
+04-Oct-2022 12:13:31 INFO - new product has been added
+04-Oct-2022 17:51:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 17:51:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 17:51:52 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 17:51:59 INFO - Started MyrestApplication in 6.77 seconds (JVM running for 8.392)
+04-Oct-2022 17:55:06 INFO - new product has been added
+04-Oct-2022 17:56:22 INFO - shivauser has been added
+04-Oct-2022 17:56:29 INFO - removing the user
+04-Oct-2022 17:56:48 INFO - shivauser has been added
+04-Oct-2022 17:57:11 INFO - shivacart list getting
+04-Oct-2022 17:57:11 INFO - shivaadded Netto cart
+04-Oct-2022 17:57:20 INFO - removing the user
+04-Oct-2022 17:58:13 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 17:58:13 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 17:58:13 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 17:58:14 INFO - Started MyrestApplication in 1.454 seconds (JVM running for 383.947)
+04-Oct-2022 17:58:16 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 17:58:16 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 17:58:16 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 17:58:17 INFO - Started MyrestApplication in 1.311 seconds (JVM running for 386.788)
+04-Oct-2022 17:58:59 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 17:58:59 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 17:58:59 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 17:59:00 INFO - Started MyrestApplication in 1.701 seconds (JVM running for 429.94)
+04-Oct-2022 17:59:02 INFO - removing the user
+04-Oct-2022 17:59:11 INFO - removing the user
+04-Oct-2022 17:59:20 INFO - removing the user
+04-Oct-2022 17:59:50 INFO - getting the customers
+04-Oct-2022 18:00:03 INFO - shivauser has been added
+04-Oct-2022 18:01:19 INFO - new product has been added
+04-Oct-2022 18:01:45 INFO - shivacart list getting
+04-Oct-2022 18:01:45 INFO - shivaadded Netto cart
+04-Oct-2022 18:01:57 INFO - removing the user
+04-Oct-2022 18:02:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:02:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:02:45 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:03:02 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:03:02 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:03:02 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:10:13 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:10:13 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:10:13 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:10:15 INFO - Started MyrestApplication in 2.011 seconds (JVM running for 1105.085)
+04-Oct-2022 18:10:16 INFO - removing the user
+04-Oct-2022 18:11:29 INFO - new product has been added
+04-Oct-2022 18:11:31 INFO - new product has been added
+04-Oct-2022 18:11:43 INFO - shivauser has been added
+04-Oct-2022 18:12:59 INFO - shivacart list getting
+04-Oct-2022 18:12:59 INFO - shivaadded Netto cart
+04-Oct-2022 18:13:32 INFO - removing the user
+04-Oct-2022 18:13:54 INFO - removing the user
+04-Oct-2022 18:14:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:14:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:14:33 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:14:35 INFO - Started MyrestApplication in 1.703 seconds (JVM running for 1364.647)
+04-Oct-2022 18:15:17 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:15:17 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:15:17 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:18:44 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:18:44 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:18:44 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:18:45 INFO - Started MyrestApplication in 1.49 seconds (JVM running for 1615.092)
+04-Oct-2022 18:19:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:19:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:19:07 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:19:09 INFO - Started MyrestApplication in 2.007 seconds (JVM running for 1638.442)
+04-Oct-2022 18:19:09 INFO - removing the user
+04-Oct-2022 18:20:16 INFO - new product has been added
+04-Oct-2022 18:20:34 INFO - shivauser has been added
+04-Oct-2022 18:20:37 INFO - shivacart list getting
+04-Oct-2022 18:20:37 INFO - shivaadded Netto cart
+04-Oct-2022 18:20:50 INFO - removing the user
+04-Oct-2022 18:21:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:21:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:21:37 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:21:38 INFO - Started MyrestApplication in 0.872 seconds (JVM running for 1787.675)
+04-Oct-2022 18:22:07 INFO - shivauser has been added
+04-Oct-2022 18:22:18 INFO - shivacart list getting
+04-Oct-2022 18:22:18 INFO - shivaadded Netto cart
+04-Oct-2022 18:22:27 INFO - removing the user
+04-Oct-2022 18:22:43 INFO - shivauser has been added
+04-Oct-2022 18:22:49 INFO - shivacart list getting
+04-Oct-2022 18:22:49 INFO - shivaadded Netto cart
+04-Oct-2022 18:24:04 INFO - shivacart list getting
+04-Oct-2022 18:24:04 INFO - shivaBought the cart
+04-Oct-2022 18:24:31 INFO - removing the user
+04-Oct-2022 18:25:47 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:25:47 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:25:47 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:25:49 INFO - Started MyrestApplication in 1.588 seconds (JVM running for 2038.414)
+04-Oct-2022 18:25:56 INFO - removing the user
+04-Oct-2022 18:28:33 INFO - shivauser has been added
+04-Oct-2022 18:28:37 INFO - shivacart list getting
+04-Oct-2022 18:28:37 INFO - shivaadded Netto cart
+04-Oct-2022 18:28:59 INFO - shivacart list getting
+04-Oct-2022 18:32:33 INFO - shiva@gmail.comupdated the profile
+04-Oct-2022 18:36:32 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:36:32 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:36:32 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:36:34 INFO - Started MyrestApplication in 1.708 seconds (JVM running for 2683.285)
+04-Oct-2022 18:36:54 INFO - removing the user
+04-Oct-2022 18:37:24 INFO - shivauser has been added
+04-Oct-2022 18:38:31 INFO - shiva@gmail.comupdated the profile
+04-Oct-2022 18:45:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:45:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:45:46 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:45:47 INFO - Started MyrestApplication in 0.715 seconds (JVM running for 3236.448)
+04-Oct-2022 18:45:48 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:45:48 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:45:48 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:45:49 INFO - Started MyrestApplication in 0.623 seconds (JVM running for 3238.654)
+04-Oct-2022 18:47:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:47:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:47:58 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:47:59 INFO - Started MyrestApplication in 0.72 seconds (JVM running for 3368.34)
+04-Oct-2022 18:48:06 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:48:06 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:48:06 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:48:06 INFO - Started MyrestApplication in 0.766 seconds (JVM running for 3375.958)
+04-Oct-2022 18:49:05 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:49:05 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:49:05 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:49:06 INFO - Started MyrestApplication in 0.907 seconds (JVM running for 3435.537)
+04-Oct-2022 18:50:02 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:50:02 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:50:02 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:50:12 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:50:12 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:50:12 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:50:13 INFO - Started MyrestApplication in 0.852 seconds (JVM running for 3502.833)
+04-Oct-2022 18:50:24 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:50:24 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:50:24 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:50:25 INFO - Started MyrestApplication in 0.743 seconds (JVM running for 3514.448)
+04-Oct-2022 18:50:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:50:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:50:34 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:50:34 INFO - Started MyrestApplication in 0.706 seconds (JVM running for 3524.087)
+04-Oct-2022 18:51:03 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:51:03 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:51:03 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:51:04 INFO - Started MyrestApplication in 0.829 seconds (JVM running for 3553.436)
+04-Oct-2022 18:51:13 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:51:13 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:51:13 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:51:13 INFO - Started MyrestApplication in 0.637 seconds (JVM running for 3562.939)
+04-Oct-2022 18:51:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1328 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:51:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:51:34 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:51:35 INFO - Started MyrestApplication in 1.396 seconds (JVM running for 3584.579)
+04-Oct-2022 18:53:19 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1272 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:53:19 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:53:19 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:53:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:53:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:53:36 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:53:42 INFO - Started MyrestApplication in 7.03 seconds (JVM running for 8.382)
+04-Oct-2022 18:54:30 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 18:54:30 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 18:54:30 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 18:54:31 INFO - Started MyrestApplication in 1.079 seconds (JVM running for 57.441)
+04-Oct-2022 18:54:38 INFO - accquiring product list
+04-Oct-2022 19:34:00 INFO - new product has been added
+04-Oct-2022 19:35:34 INFO - new product has been added
+04-Oct-2022 19:36:24 INFO - new product has been added
+04-Oct-2022 19:37:14 INFO - new product has been added
+04-Oct-2022 19:37:28 INFO - new product has been added
+04-Oct-2022 19:39:32 INFO - new product has been added
+04-Oct-2022 19:41:18 INFO - new product has been added
+04-Oct-2022 19:45:34 INFO - getting the customers
+04-Oct-2022 19:45:40 INFO - getting the products
+04-Oct-2022 19:50:19 INFO - kiranuser has been added
+04-Oct-2022 19:51:55 INFO - bhuvanuser has been added
+04-Oct-2022 19:52:21 INFO - shivauser has been added
+04-Oct-2022 19:52:35 INFO - getting the customers
+04-Oct-2022 19:53:11 INFO - getting the products
+04-Oct-2022 19:56:34 INFO - shivacart list getting
+04-Oct-2022 19:56:34 INFO - shivaadded Footballto cart
+04-Oct-2022 19:56:38 INFO - shivacart list getting
+04-Oct-2022 19:57:27 INFO - getting the product
+04-Oct-2022 19:58:21 INFO - updating the product
+04-Oct-2022 19:58:41 INFO - updating the product
+04-Oct-2022 20:01:00 INFO - shivacart list getting
+04-Oct-2022 20:01:00 INFO - shivaBought the cart
+04-Oct-2022 20:01:49 INFO - shivacart list getting
+04-Oct-2022 20:01:49 INFO - shivaBought the cart
+04-Oct-2022 20:06:44 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:06:44 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:06:44 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:06:45 INFO - Started MyrestApplication in 1.491 seconds (JVM running for 4391.583)
+04-Oct-2022 20:07:08 INFO - shivacart list getting
+04-Oct-2022 20:07:08 INFO - shivaBought the cart
+04-Oct-2022 20:08:18 INFO - shivacart list getting
+04-Oct-2022 20:09:00 INFO - shivaremoved Footballremoved cart
+04-Oct-2022 20:10:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:10:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:10:45 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:10:46 INFO - Started MyrestApplication in 0.738 seconds (JVM running for 4632.649)
+04-Oct-2022 20:10:50 INFO - nullremoved Footballremoved cart
+04-Oct-2022 20:12:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:12:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:12:34 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:12:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:12:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:12:46 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:14:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:14:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:14:00 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:14:02 INFO - Started MyrestApplication in 1.653 seconds (JVM running for 4828.154)
+04-Oct-2022 20:14:03 INFO - nullremoved Footballremoved cart
+04-Oct-2022 20:14:42 INFO - shivacart list getting
+04-Oct-2022 20:14:42 INFO - shivaadded Footballto cart
+04-Oct-2022 20:14:46 INFO - shivacart list getting
+04-Oct-2022 20:14:46 INFO - shivaadded Studsto cart
+04-Oct-2022 20:14:49 INFO - shivacart list getting
+04-Oct-2022 20:15:31 INFO - removing the product
+04-Oct-2022 20:17:49 INFO - removing the product
+04-Oct-2022 20:20:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:20:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:20:58 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:20:59 INFO - Started MyrestApplication in 0.976 seconds (JVM running for 5244.963)
+04-Oct-2022 20:28:08 INFO - removing the product
+04-Oct-2022 20:28:18 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:28:18 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:28:18 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:28:19 INFO - Started MyrestApplication in 1.564 seconds (JVM running for 5685.739)
+04-Oct-2022 20:28:21 INFO - removing the product
+04-Oct-2022 20:29:14 INFO - nullremoved Footballremoved cart
+04-Oct-2022 20:29:20 INFO - removing the product
+04-Oct-2022 20:30:59 INFO - nullremoved Studsremoved cart
+04-Oct-2022 20:31:23 INFO - shivacart list getting
+04-Oct-2022 20:31:23 INFO - shivaadded Studsto cart
+04-Oct-2022 20:31:36 INFO - shivaremoved Studsremoved cart
+04-Oct-2022 20:31:54 INFO - shivacart list getting
+04-Oct-2022 20:31:54 INFO - shivaadded Studsto cart
+04-Oct-2022 20:32:03 INFO - removing the product
+04-Oct-2022 20:40:35 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:40:35 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:40:35 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:40:48 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:40:48 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:40:48 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:41:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:41:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:41:52 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:42:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:42:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:42:46 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:44:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:44:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:44:00 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:45:30 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:45:30 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:45:30 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:47:08 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7560 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:47:08 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:47:08 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:47:22 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7080 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:47:22 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:47:22 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:48:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 4800 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:48:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:48:14 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:48:21 INFO - Started MyrestApplication in 7.099 seconds (JVM running for 8.435)
+04-Oct-2022 20:52:48 INFO - new product has been added
+04-Oct-2022 20:53:35 INFO - new product has been added
+04-Oct-2022 20:53:56 INFO - new product has been added
+04-Oct-2022 20:54:21 INFO - new product has been added
+04-Oct-2022 20:54:42 INFO - new product has been added
+04-Oct-2022 20:55:01 INFO - new product has been added
+04-Oct-2022 20:55:54 INFO - shivauser has been added
+04-Oct-2022 20:56:04 INFO - shivacart list getting
+04-Oct-2022 20:56:04 INFO - shivaadded Studsto cart
+04-Oct-2022 20:56:16 INFO - removing the product
+04-Oct-2022 20:58:32 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 4800 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:58:32 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:58:32 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:58:34 INFO - Started MyrestApplication in 2.051 seconds (JVM running for 621.873)
+04-Oct-2022 20:58:42 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 4800 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:58:42 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:58:42 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:58:44 INFO - Started MyrestApplication in 1.947 seconds (JVM running for 631.712)
+04-Oct-2022 20:59:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 20:59:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 20:59:00 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 20:59:07 INFO - Started MyrestApplication in 7.341 seconds (JVM running for 9.201)
+04-Oct-2022 21:00:03 INFO - new product has been added
+04-Oct-2022 21:00:21 INFO - new product has been added
+04-Oct-2022 21:00:40 INFO - new product has been added
+04-Oct-2022 21:00:52 INFO - shivauser has been added
+04-Oct-2022 21:00:57 INFO - shivacart list getting
+04-Oct-2022 21:00:57 INFO - shivaadded Studsto cart
+04-Oct-2022 21:01:10 INFO - removing the product
+04-Oct-2022 21:02:04 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 21:02:04 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 21:02:04 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 21:02:06 INFO - Started MyrestApplication in 1.737 seconds (JVM running for 188.529)
+04-Oct-2022 21:02:20 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 21:02:20 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 21:02:20 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 21:03:32 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 21:03:32 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 21:03:32 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 21:03:43 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 21:03:43 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 21:03:43 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 21:05:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 21:05:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 21:05:07 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 21:07:25 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 21:07:25 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 21:07:25 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 21:07:26 INFO - Started MyrestApplication in 1.016 seconds (JVM running for 508.034)
+04-Oct-2022 21:07:29 INFO - new product has been added
+04-Oct-2022 21:08:34 INFO - shivauser has been added
+04-Oct-2022 21:08:48 INFO - shivacart list getting
+04-Oct-2022 21:08:48 INFO - shivaadded Studsto cart
+04-Oct-2022 21:08:57 INFO - removing the product
+04-Oct-2022 21:09:14 INFO - new product has been added
+04-Oct-2022 21:10:17 INFO - shivacart list getting
+04-Oct-2022 21:10:17 INFO - shivaadded Studsto cart
+04-Oct-2022 21:10:20 INFO - shivacart list getting
+04-Oct-2022 21:12:03 INFO - shivacart list getting
+04-Oct-2022 21:12:03 INFO - shivaBought the cart
+04-Oct-2022 21:19:15 INFO - shivaremoved Studsremoved cart
+04-Oct-2022 21:22:00 INFO - shivacart list getting
+04-Oct-2022 21:22:00 INFO - shivaadded Studsto cart
+04-Oct-2022 21:22:20 INFO - shivaBought the item from cart
+04-Oct-2022 21:22:20 INFO - shivaremoved Studsremoved cart
+04-Oct-2022 21:23:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 21:23:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 21:23:58 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 21:24:00 INFO - Started MyrestApplication in 1.788 seconds (JVM running for 1502.585)
+04-Oct-2022 21:24:15 INFO - shivacart list getting
+04-Oct-2022 21:24:15 INFO - shivaadded Studsto cart
+04-Oct-2022 21:24:17 INFO - shivacart list getting
+04-Oct-2022 21:24:40 INFO - shivacart list getting
+04-Oct-2022 21:24:40 INFO - shivaBought the cart
+04-Oct-2022 21:51:26 INFO - shivacart list getting
+04-Oct-2022 21:51:42 INFO - getting the products
+04-Oct-2022 21:51:54 INFO - shivacart list getting
+04-Oct-2022 21:51:54 INFO - shivaBought the cart
+04-Oct-2022 21:54:12 INFO - shivaBought the item from cart
+04-Oct-2022 21:54:12 INFO - shivaremoved Studsremoved cart
+04-Oct-2022 21:56:11 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 21:56:11 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 21:56:11 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 21:56:12 INFO - Started MyrestApplication in 1.067 seconds (JVM running for 3434.239)
+04-Oct-2022 22:01:17 INFO - shivacart list getting
+04-Oct-2022 22:01:17 INFO - shivaadded Studsto cart
+04-Oct-2022 22:01:18 INFO - shivacart list getting
+04-Oct-2022 22:01:23 INFO - shivacart list getting
+04-Oct-2022 22:01:23 INFO - shivaBought the cart
+04-Oct-2022 22:02:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 22:02:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 22:02:34 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 22:02:36 INFO - Started MyrestApplication in 1.386 seconds (JVM running for 3818.295)
+04-Oct-2022 22:02:51 INFO - shivacart list getting
+04-Oct-2022 22:02:51 INFO - shivaBought the cart
+04-Oct-2022 22:04:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 22:04:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 22:04:33 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 22:04:34 INFO - Started MyrestApplication in 1.173 seconds (JVM running for 3936.726)
+04-Oct-2022 22:04:47 INFO - shivacart list getting
+04-Oct-2022 22:04:56 INFO - shivacart list getting
+04-Oct-2022 22:04:56 INFO - shivaBought the cart
+04-Oct-2022 22:05:55 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 22:05:55 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 22:05:55 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 22:05:56 INFO - Started MyrestApplication in 1.417 seconds (JVM running for 4018.616)
+04-Oct-2022 22:06:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 22:06:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 22:06:14 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 22:06:16 INFO - Started MyrestApplication in 1.428 seconds (JVM running for 4038.227)
+04-Oct-2022 22:06:17 INFO - shivacart list getting
+04-Oct-2022 22:06:17 INFO - shivaBought the cart
+04-Oct-2022 22:10:47 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13768 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 22:10:47 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 22:10:47 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 22:10:48 INFO - Started MyrestApplication in 1.459 seconds (JVM running for 4310.506)
+04-Oct-2022 22:10:51 INFO - shivacart list getting
+04-Oct-2022 22:10:51 INFO - shivaBought the cart
+04-Oct-2022 22:13:11 INFO - shivacart list getting
+04-Oct-2022 22:13:20 INFO - shivacart list getting
+04-Oct-2022 22:13:20 INFO - shivaadded Studsto cart
+04-Oct-2022 22:13:49 INFO - removing the product
+04-Oct-2022 22:14:18 INFO - new product has been added
+04-Oct-2022 22:14:31 INFO - new product has been added
+04-Oct-2022 22:15:00 INFO - shivacart list getting
+04-Oct-2022 22:15:00 INFO - shivaadded Studsto cart
+04-Oct-2022 22:15:08 INFO - removing the product
+04-Oct-2022 22:15:28 INFO - getting the products
+04-Oct-2022 22:15:50 INFO - new product has been added
+04-Oct-2022 22:16:04 INFO - shivacart list getting
+04-Oct-2022 22:16:04 INFO - shivaadded Studsto cart
+04-Oct-2022 22:16:16 INFO - shivacart list getting
+04-Oct-2022 22:16:16 INFO - shivaBought the cart
+04-Oct-2022 22:19:49 INFO - shivacart list getting
+04-Oct-2022 22:19:49 INFO - shivaadded Studsto cart
+04-Oct-2022 22:19:53 INFO - shivacart list getting
+04-Oct-2022 22:19:59 INFO - removing the user
+04-Oct-2022 22:21:37 INFO - removing the product
+04-Oct-2022 22:21:46 INFO - removing the product
+04-Oct-2022 22:21:50 INFO - removing the product
+04-Oct-2022 22:27:25 INFO - new product has been added
+04-Oct-2022 22:28:54 INFO - new product has been added
+04-Oct-2022 22:30:08 INFO - new product has been added
+04-Oct-2022 22:30:50 INFO - new product has been added
+04-Oct-2022 22:31:17 INFO - new product has been added
+04-Oct-2022 22:31:52 INFO - new product has been added
+04-Oct-2022 22:32:11 INFO - new product has been added
+04-Oct-2022 22:34:42 INFO - new product has been added
+04-Oct-2022 22:40:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7800 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 22:40:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 22:40:29 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 22:40:35 INFO - Started MyrestApplication in 6.004 seconds (JVM running for 7.36)
+04-Oct-2022 22:40:50 INFO - kiranuser has been added
+04-Oct-2022 22:41:34 INFO - shivauser has been added
+04-Oct-2022 22:42:15 INFO - bhuvanuser has been added
+04-Oct-2022 22:58:04 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7800 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 22:58:04 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 22:58:04 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 22:58:04 INFO - Started MyrestApplication in 0.984 seconds (JVM running for 1056.855)
+04-Oct-2022 23:28:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7340 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 23:28:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 23:28:29 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 23:28:35 INFO - Started MyrestApplication in 6.573 seconds (JVM running for 8.127)
+04-Oct-2022 23:33:22 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7340 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+04-Oct-2022 23:33:22 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+04-Oct-2022 23:33:22 INFO - No active profile set, falling back to 1 default profile: "default"
+04-Oct-2022 23:33:23 INFO - Started MyrestApplication in 0.959 seconds (JVM running for 295.639)
+05-Oct-2022 12:01:03 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:01:03 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:01:03 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:01:11 INFO - Started MyrestApplication in 8.473 seconds (JVM running for 11.078)
+05-Oct-2022 12:01:41 INFO - kiranBought the item from home
+05-Oct-2022 12:03:25 INFO - shivacart list getting
+05-Oct-2022 12:03:25 INFO - shivaadded Footballto cart
+05-Oct-2022 12:03:29 INFO - shivacart list getting
+05-Oct-2022 12:07:53 INFO - bhuvancart list getting
+05-Oct-2022 12:07:53 INFO - bhuvanadded Footballto cart
+05-Oct-2022 12:08:07 INFO - removing the user
+05-Oct-2022 12:10:11 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:10:11 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:10:11 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:10:13 INFO - Started MyrestApplication in 1.639 seconds (JVM running for 553.385)
+05-Oct-2022 12:19:13 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:19:13 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:19:13 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:19:15 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:19:15 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:19:15 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:19:28 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:19:28 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:19:28 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:19:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:19:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:19:33 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:20:10 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:20:10 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:20:10 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:21:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:21:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:21:36 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:22:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:22:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:22:58 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:23:15 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:23:15 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:23:15 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:25:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13904 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:25:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:25:31 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:29:56 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9360 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:29:56 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:29:56 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:30:53 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 8644 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:30:53 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:30:53 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:31:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7140 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:31:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:31:46 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:34:25 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13084 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:34:25 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:34:25 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:36:20 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:36:20 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:36:20 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:36:26 INFO - Started MyrestApplication in 7.179 seconds (JVM running for 9.197)
+05-Oct-2022 12:36:55 WARN - sorry id not not found
+05-Oct-2022 12:39:53 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:39:53 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:39:53 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:39:55 INFO - Started MyrestApplication in 2.041 seconds (JVM running for 217.995)
+05-Oct-2022 12:41:42 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:41:42 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:41:42 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:41:43 INFO - Started MyrestApplication in 1.706 seconds (JVM running for 326.421)
+05-Oct-2022 12:44:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:44:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:44:37 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:44:38 INFO - Started MyrestApplication in 0.806 seconds (JVM running for 500.855)
+05-Oct-2022 12:45:11 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:45:11 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:45:11 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:45:12 INFO - Started MyrestApplication in 1.13 seconds (JVM running for 534.836)
+05-Oct-2022 12:47:21 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:47:21 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:47:21 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:47:22 INFO - Started MyrestApplication in 1.013 seconds (JVM running for 664.761)
+05-Oct-2022 12:47:28 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:47:28 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:47:28 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:47:29 INFO - Started MyrestApplication in 0.992 seconds (JVM running for 672.421)
+05-Oct-2022 12:47:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:47:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:47:45 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:47:49 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:47:49 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:47:49 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:47:50 INFO - Started MyrestApplication in 1.36 seconds (JVM running for 693.365)
+05-Oct-2022 12:50:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:50:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:50:52 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:50:53 INFO - Started MyrestApplication in 1.072 seconds (JVM running for 876.123)
+05-Oct-2022 12:50:56 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:50:56 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:50:56 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:50:57 INFO - Started MyrestApplication in 1.276 seconds (JVM running for 880.083)
+05-Oct-2022 12:51:08 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:51:08 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:51:08 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:51:09 INFO - Started MyrestApplication in 0.841 seconds (JVM running for 891.84)
+05-Oct-2022 12:51:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:51:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:51:31 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:51:33 INFO - Started MyrestApplication in 1.699 seconds (JVM running for 915.748)
+05-Oct-2022 12:54:43 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:54:43 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:54:43 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:54:43 INFO - Started MyrestApplication in 0.812 seconds (JVM running for 1106.502)
+05-Oct-2022 12:57:38 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:57:38 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:57:38 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:57:39 INFO - Started MyrestApplication in 0.949 seconds (JVM running for 1281.989)
+05-Oct-2022 12:57:53 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:57:53 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:57:53 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:57:54 INFO - Started MyrestApplication in 0.926 seconds (JVM running for 1296.848)
+05-Oct-2022 12:58:04 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:58:04 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:58:04 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:58:04 INFO - Started MyrestApplication in 0.83 seconds (JVM running for 1307.459)
+05-Oct-2022 12:58:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:58:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:58:23 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:58:24 INFO - Started MyrestApplication in 1.11 seconds (JVM running for 1326.681)
+05-Oct-2022 12:58:32 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:58:32 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:58:32 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:58:33 INFO - Started MyrestApplication in 1.12 seconds (JVM running for 1335.712)
+05-Oct-2022 12:59:15 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:59:15 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:59:15 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:59:16 INFO - Started MyrestApplication in 1.141 seconds (JVM running for 1379.178)
+05-Oct-2022 12:59:43 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 12:59:43 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 12:59:43 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 12:59:43 INFO - Started MyrestApplication in 0.756 seconds (JVM running for 1406.512)
+05-Oct-2022 13:00:11 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:00:11 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:00:11 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:00:12 INFO - Started MyrestApplication in 1.382 seconds (JVM running for 1435.436)
+05-Oct-2022 13:02:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:02:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:02:14 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:02:15 INFO - Started MyrestApplication in 1.442 seconds (JVM running for 1558.22)
+05-Oct-2022 13:04:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:04:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:04:00 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:04:01 INFO - Started MyrestApplication in 0.883 seconds (JVM running for 1664.208)
+05-Oct-2022 13:04:28 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:04:28 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:04:28 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:04:29 INFO - Started MyrestApplication in 0.691 seconds (JVM running for 1691.725)
+05-Oct-2022 13:04:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:04:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:04:41 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:04:42 INFO - Started MyrestApplication in 0.928 seconds (JVM running for 1704.769)
+05-Oct-2022 13:05:30 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:05:30 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:05:30 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:05:31 INFO - Started MyrestApplication in 0.779 seconds (JVM running for 1754.258)
+05-Oct-2022 13:06:05 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:06:05 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:06:05 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:06:06 INFO - Started MyrestApplication in 0.637 seconds (JVM running for 1789.11)
+05-Oct-2022 13:10:26 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:10:26 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:10:26 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:10:27 INFO - Started MyrestApplication in 0.791 seconds (JVM running for 2050.024)
+05-Oct-2022 13:11:27 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:11:27 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:11:27 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:11:28 INFO - Started MyrestApplication in 0.666 seconds (JVM running for 2110.906)
+05-Oct-2022 13:11:38 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:11:38 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:11:38 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:11:38 INFO - Started MyrestApplication in 0.83 seconds (JVM running for 2121.578)
+05-Oct-2022 13:11:44 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:11:44 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:11:44 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:13:50 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:13:50 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:13:50 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:14:02 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:14:02 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:14:02 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:20:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:20:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:20:37 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:22:18 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:22:18 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:22:18 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:24:12 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:24:12 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:24:12 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:24:35 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:24:35 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:24:35 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:26:18 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:26:18 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:26:18 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:29:25 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:29:25 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:29:25 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:29:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:29:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:29:34 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:32:25 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:32:25 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:32:25 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:33:10 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:33:10 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:33:10 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:33:13 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:33:13 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:33:13 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:34:01 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:34:01 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:34:01 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:34:04 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:34:04 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:34:04 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:34:15 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:34:15 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:34:15 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:34:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:34:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:34:37 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:35:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:35:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:35:29 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:36:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:36:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:36:41 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:37:17 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:37:17 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:37:17 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:37:28 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:37:28 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:37:28 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:37:39 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:37:39 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:37:39 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:37:44 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:37:44 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:37:44 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:38:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:38:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:38:23 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:38:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:38:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:38:41 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:38:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:38:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:38:45 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:40:18 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:40:18 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:40:18 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:40:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:40:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:40:52 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:40:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:40:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:40:58 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:41:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:41:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:41:58 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:42:54 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:42:54 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:42:54 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:43:12 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:43:12 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:43:12 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:45:04 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:45:04 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:45:04 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:45:15 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:45:15 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:45:15 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:45:20 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:45:20 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:45:20 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:45:27 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:45:27 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:45:27 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:45:32 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:45:32 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:45:32 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:45:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:45:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:45:52 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:46:02 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:46:02 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:46:02 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:46:09 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5716 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:46:09 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:46:09 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 13:46:51 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16760 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 13:46:51 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 13:46:51 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 14:09:01 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 15088 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 14:09:01 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 14:09:01 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 14:37:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 15036 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 14:37:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 14:37:31 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 14:54:00 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 8120 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 14:54:00 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 14:54:00 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 14:58:40 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16628 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 14:58:40 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 14:58:40 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 14:59:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 13004 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 14:59:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 14:59:36 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 15:16:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 15524 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 15:16:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 15:16:23 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 15:18:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 4208 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 15:18:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 15:18:07 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 15:24:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7548 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 15:24:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 15:24:31 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 15:29:03 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7940 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 15:29:03 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 15:29:03 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 15:30:04 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 6616 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 15:30:04 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 15:30:04 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 15:40:28 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7260 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 15:40:28 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 15:40:28 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 15:43:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5640 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 15:43:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 15:43:23 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:27:05 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 4676 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:27:05 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:27:05 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:30:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 3648 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:30:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:30:34 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:33:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16592 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:33:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:33:14 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:34:22 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7340 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:34:22 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:34:22 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:35:17 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16408 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:35:17 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:35:17 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:36:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 5220 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:36:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:36:29 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:44:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7488 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:44:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:44:29 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:46:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:46:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:46:46 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:46:52 INFO - Started MyrestApplication in 5.785 seconds (JVM running for 7.457)
+05-Oct-2022 16:47:05 INFO - getting the products
+05-Oct-2022 16:47:24 INFO - acquiring product details
+05-Oct-2022 16:48:55 INFO - acquiring product details
+05-Oct-2022 16:50:56 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:50:56 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:50:56 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:51:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 4608 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:51:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:51:14 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:51:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:51:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:51:41 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:51:41 INFO - Started MyrestApplication in 0.897 seconds (JVM running for 297.047)
+05-Oct-2022 16:52:41 INFO - acquiring product details
+05-Oct-2022 16:52:52 INFO - acquiring product details
+05-Oct-2022 16:52:58 INFO - acquiring product details
+05-Oct-2022 16:53:07 INFO - removing the user
+05-Oct-2022 16:53:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:53:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:53:37 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:53:37 INFO - Started MyrestApplication in 0.821 seconds (JVM running for 413.048)
+05-Oct-2022 16:54:03 INFO - removing the product
+05-Oct-2022 16:56:05 INFO - getting the customers
+05-Oct-2022 16:57:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:57:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:57:34 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:57:35 INFO - Started MyrestApplication in 0.964 seconds (JVM running for 650.412)
+05-Oct-2022 16:57:42 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:57:42 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:57:42 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:57:42 INFO - Started MyrestApplication in 0.735 seconds (JVM running for 658.061)
+05-Oct-2022 16:58:17 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:58:17 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:58:17 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:58:18 INFO - Started MyrestApplication in 0.822 seconds (JVM running for 693.886)
+05-Oct-2022 16:58:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 16:58:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 16:58:58 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 16:59:00 INFO - Started MyrestApplication in 1.438 seconds (JVM running for 735.595)
+05-Oct-2022 17:01:01 INFO - kirancart list getting
+05-Oct-2022 17:01:42 INFO - kirancart list getting
+05-Oct-2022 17:01:42 INFO - kiranBought the cart
+05-Oct-2022 17:01:55 INFO - kirangot the order list
+05-Oct-2022 17:02:19 INFO - getting items of order
+05-Oct-2022 17:31:24 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:31:24 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:31:24 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:31:25 INFO - Started MyrestApplication in 0.687 seconds (JVM running for 2680.478)
+05-Oct-2022 17:31:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:31:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:31:37 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:31:37 INFO - Started MyrestApplication in 0.637 seconds (JVM running for 2692.927)
+05-Oct-2022 17:31:54 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:31:54 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:31:54 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:31:55 INFO - Started MyrestApplication in 0.643 seconds (JVM running for 2710.582)
+05-Oct-2022 17:35:22 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:35:22 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:35:22 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:35:23 INFO - Started MyrestApplication in 0.782 seconds (JVM running for 2918.65)
+05-Oct-2022 17:37:03 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:37:03 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:37:03 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:37:03 INFO - Started MyrestApplication in 0.735 seconds (JVM running for 3019.112)
+05-Oct-2022 17:39:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:39:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:39:41 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:39:41 INFO - Started MyrestApplication in 0.654 seconds (JVM running for 3177.036)
+05-Oct-2022 17:39:49 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:39:49 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:39:49 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:39:50 INFO - Started MyrestApplication in 0.712 seconds (JVM running for 3185.573)
+05-Oct-2022 17:40:13 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:40:13 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:40:13 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:40:13 INFO - Started MyrestApplication in 0.734 seconds (JVM running for 3208.93)
+05-Oct-2022 17:42:15 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:42:15 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:42:15 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:42:15 INFO - Started MyrestApplication in 0.666 seconds (JVM running for 3331.205)
+05-Oct-2022 17:42:38 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:42:38 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:42:38 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:42:39 INFO - Started MyrestApplication in 0.598 seconds (JVM running for 3354.302)
+05-Oct-2022 17:43:51 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:43:51 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:43:51 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:43:51 INFO - Started MyrestApplication in 0.67 seconds (JVM running for 3426.951)
+05-Oct-2022 17:45:35 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:45:35 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:45:35 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:45:36 INFO - Started MyrestApplication in 0.633 seconds (JVM running for 3531.521)
+05-Oct-2022 17:46:24 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:46:24 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:46:24 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:46:25 INFO - Started MyrestApplication in 0.638 seconds (JVM running for 3580.735)
+05-Oct-2022 17:55:35 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:55:35 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:55:35 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:55:36 INFO - Started MyrestApplication in 0.821 seconds (JVM running for 4131.801)
+05-Oct-2022 17:56:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:56:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:56:33 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:56:34 INFO - Started MyrestApplication in 0.623 seconds (JVM running for 4189.392)
+05-Oct-2022 17:57:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:57:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:57:14 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:57:15 INFO - Started MyrestApplication in 0.685 seconds (JVM running for 4230.443)
+05-Oct-2022 17:57:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:57:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:57:23 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:57:23 INFO - Started MyrestApplication in 0.646 seconds (JVM running for 4238.976)
+05-Oct-2022 17:58:54 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 17:58:54 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 17:58:54 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 17:58:54 INFO - Started MyrestApplication in 0.632 seconds (JVM running for 4330.186)
+05-Oct-2022 18:00:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:00:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:00:37 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:00:38 INFO - Started MyrestApplication in 0.727 seconds (JVM running for 4433.753)
+05-Oct-2022 18:00:45 INFO - getting the products
+05-Oct-2022 18:00:45 INFO - got the product list
+05-Oct-2022 18:02:38 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:02:38 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:02:38 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:02:39 INFO - Started MyrestApplication in 0.7 seconds (JVM running for 4554.786)
+05-Oct-2022 18:04:30 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:04:30 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:04:30 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:04:31 INFO - Started MyrestApplication in 0.715 seconds (JVM running for 4666.6)
+05-Oct-2022 18:04:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:04:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:04:41 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:04:41 INFO - Started MyrestApplication in 0.664 seconds (JVM running for 4677.154)
+05-Oct-2022 18:05:05 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:05:05 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:05:05 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:05:05 INFO - Started MyrestApplication in 0.592 seconds (JVM running for 4700.929)
+05-Oct-2022 18:06:05 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:06:05 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:06:05 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:06:06 INFO - Started MyrestApplication in 0.688 seconds (JVM running for 4761.56)
+05-Oct-2022 18:06:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:06:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:06:31 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:06:32 INFO - Started MyrestApplication in 0.586 seconds (JVM running for 4787.703)
+05-Oct-2022 18:07:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:07:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:07:29 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:07:29 INFO - Started MyrestApplication in 0.646 seconds (JVM running for 4845.087)
+05-Oct-2022 18:08:09 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:08:09 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:08:09 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:08:10 INFO - Started MyrestApplication in 0.583 seconds (JVM running for 4885.329)
+05-Oct-2022 18:08:55 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:08:55 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:08:55 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:08:55 INFO - Started MyrestApplication in 0.616 seconds (JVM running for 4930.909)
+05-Oct-2022 18:09:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:09:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:09:46 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:10:08 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:10:08 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:10:08 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:10:21 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:10:21 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:10:21 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:10:21 INFO - Started MyrestApplication in 0.73 seconds (JVM running for 5016.919)
+05-Oct-2022 18:10:55 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:10:55 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:10:55 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:10:55 INFO - Started MyrestApplication in 0.663 seconds (JVM running for 5051.003)
+05-Oct-2022 18:12:05 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:12:05 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:12:05 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:12:05 INFO - Started MyrestApplication in 0.686 seconds (JVM running for 5120.869)
+05-Oct-2022 18:12:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:12:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:12:45 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:12:46 INFO - Started MyrestApplication in 0.612 seconds (JVM running for 5161.369)
+05-Oct-2022 18:13:01 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:13:01 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:13:01 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:13:06 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:13:06 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:13:06 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:13:06 INFO - Started MyrestApplication in 0.717 seconds (JVM running for 5182.197)
+05-Oct-2022 18:13:44 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:13:44 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:13:44 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:13:45 INFO - Started MyrestApplication in 0.789 seconds (JVM running for 5220.895)
+05-Oct-2022 18:14:22 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:14:22 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:14:22 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:14:23 INFO - Started MyrestApplication in 0.666 seconds (JVM running for 5258.805)
+05-Oct-2022 18:15:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:15:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:15:14 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:15:14 INFO - Started MyrestApplication in 0.562 seconds (JVM running for 5309.935)
+05-Oct-2022 18:23:01 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:23:01 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:23:01 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:23:02 INFO - Started MyrestApplication in 0.671 seconds (JVM running for 5777.343)
+05-Oct-2022 18:23:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:23:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:23:36 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:23:37 INFO - Started MyrestApplication in 0.869 seconds (JVM running for 5812.272)
+05-Oct-2022 18:26:02 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:26:02 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:26:02 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:26:03 INFO - Started MyrestApplication in 0.755 seconds (JVM running for 5958.313)
+05-Oct-2022 18:26:30 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:26:30 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:26:30 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:26:31 INFO - Started MyrestApplication in 0.625 seconds (JVM running for 5986.576)
+05-Oct-2022 18:27:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:27:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:27:52 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:27:53 INFO - Started MyrestApplication in 0.64 seconds (JVM running for 6068.79)
+05-Oct-2022 18:28:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:28:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:28:07 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:28:08 INFO - Started MyrestApplication in 0.631 seconds (JVM running for 6083.586)
+05-Oct-2022 18:28:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:28:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:28:41 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:28:41 INFO - Started MyrestApplication in 0.601 seconds (JVM running for 6116.943)
+05-Oct-2022 18:29:17 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:29:17 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:29:17 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:29:17 INFO - Started MyrestApplication in 0.628 seconds (JVM running for 6153.044)
+05-Oct-2022 18:30:35 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:30:35 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:30:35 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:30:36 INFO - Started MyrestApplication in 0.667 seconds (JVM running for 6231.571)
+05-Oct-2022 18:30:48 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:30:48 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:30:48 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:30:48 INFO - Started MyrestApplication in 0.616 seconds (JVM running for 6244.232)
+05-Oct-2022 18:30:57 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:30:57 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:30:57 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:30:57 INFO - Started MyrestApplication in 0.595 seconds (JVM running for 6252.82)
+05-Oct-2022 18:32:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:32:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:32:07 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:32:07 INFO - Started MyrestApplication in 0.597 seconds (JVM running for 6322.994)
+05-Oct-2022 18:33:18 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:33:18 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:33:18 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:33:18 INFO - Started MyrestApplication in 0.645 seconds (JVM running for 6394.212)
+05-Oct-2022 18:33:46 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:33:46 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:33:46 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:33:47 INFO - Started MyrestApplication in 0.578 seconds (JVM running for 6422.591)
+05-Oct-2022 18:34:05 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:34:05 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:34:05 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:34:06 INFO - Started MyrestApplication in 0.677 seconds (JVM running for 6441.719)
+05-Oct-2022 18:35:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:35:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:35:29 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:35:30 INFO - Started MyrestApplication in 0.638 seconds (JVM running for 6525.537)
+05-Oct-2022 18:36:43 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:36:43 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:36:43 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:36:44 INFO - Started MyrestApplication in 0.811 seconds (JVM running for 6599.921)
+05-Oct-2022 18:36:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:36:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:36:58 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:36:58 INFO - Started MyrestApplication in 0.683 seconds (JVM running for 6614.161)
+05-Oct-2022 18:37:10 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:37:10 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:37:10 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:37:10 INFO - Started MyrestApplication in 0.669 seconds (JVM running for 6625.861)
+05-Oct-2022 18:38:08 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:38:08 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:38:08 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:38:08 INFO - Started MyrestApplication in 0.585 seconds (JVM running for 6683.807)
+05-Oct-2022 18:38:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 16076 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:38:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:38:37 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:38:37 INFO - Started MyrestApplication in 0.622 seconds (JVM running for 6713.174)
+05-Oct-2022 18:39:31 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 7072 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:39:31 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:39:31 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:39:47 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1072 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 18:39:47 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 18:39:47 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 18:39:52 INFO - Started MyrestApplication in 5.515 seconds (JVM running for 6.616)
+05-Oct-2022 18:40:22 INFO - getting the products
+05-Oct-2022 18:40:22 INFO - got the product list
+05-Oct-2022 18:40:48 INFO - removing the user
+05-Oct-2022 18:40:48 ERROR - user not found
+05-Oct-2022 18:41:16 INFO - removing the product
+05-Oct-2022 18:41:16 INFO - admin deleted the product
+05-Oct-2022 18:41:16 ERROR - product not found
+05-Oct-2022 18:41:24 INFO - getting the products
+05-Oct-2022 18:41:24 INFO - got the product list
+05-Oct-2022 18:41:48 INFO - user registered successfully
+05-Oct-2022 18:41:57 INFO - removing the user
+05-Oct-2022 18:41:57 WARN - bhuvan@gmail.com user has been removed
+05-Oct-2022 20:59:10 INFO - user has been got
+05-Oct-2022 20:59:10 INFO - user has been got
+05-Oct-2022 20:59:10 INFO - removed all cart items
+05-Oct-2022 21:00:06 INFO - user has been got
+05-Oct-2022 21:00:06 INFO - user has been got
+05-Oct-2022 21:00:06 INFO - removed all cart items
+05-Oct-2022 21:01:33 INFO - user has been removed
+05-Oct-2022 21:01:56 INFO - user has been got
+05-Oct-2022 21:01:56 ERROR - product not found
+05-Oct-2022 21:02:02 INFO - user has been got
+05-Oct-2022 21:02:02 INFO - got the product
+05-Oct-2022 21:02:02 INFO - user has been got
+05-Oct-2022 21:02:02 INFO - kiran null
+05-Oct-2022 21:02:07 INFO - user has been got
+05-Oct-2022 21:02:07 INFO - got the product
+05-Oct-2022 21:02:07 INFO - user has been got
+05-Oct-2022 21:02:07 INFO - kiran null
+05-Oct-2022 21:02:21 INFO - user has been got
+05-Oct-2022 21:02:21 INFO - user has been got
+05-Oct-2022 21:02:21 INFO - product has been updated
+05-Oct-2022 21:02:21 INFO - order item has been added
+05-Oct-2022 21:02:21 INFO - product has been updated
+05-Oct-2022 21:02:21 INFO - order item has been added
+05-Oct-2022 21:02:21 INFO - removed all cart items
+05-Oct-2022 21:07:53 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1072 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 21:07:53 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 21:07:53 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 21:07:54 INFO - Started MyrestApplication in 0.822 seconds (JVM running for 8888.946)
+05-Oct-2022 21:08:27 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1072 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 21:08:27 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 21:08:27 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 21:08:28 INFO - Started MyrestApplication in 1.53 seconds (JVM running for 8922.909)
+05-Oct-2022 21:08:28 INFO - user has been got
+05-Oct-2022 21:08:28 INFO - user has been got
+05-Oct-2022 21:08:28 INFO - removed all cart items
+05-Oct-2022 21:08:32 INFO - user has been got
+05-Oct-2022 21:08:32 INFO - user has been got
+05-Oct-2022 21:08:32 INFO - removed all cart items
+05-Oct-2022 21:08:56 INFO - user has been got
+05-Oct-2022 21:08:56 INFO - user has been got
+05-Oct-2022 21:08:56 INFO - removed all cart items
+05-Oct-2022 21:09:10 INFO - user has been got
+05-Oct-2022 21:09:10 INFO - user has been got
+05-Oct-2022 21:09:10 INFO - removed all cart items
+05-Oct-2022 21:09:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 1072 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 21:09:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 21:09:33 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 21:09:34 INFO - Started MyrestApplication in 0.861 seconds (JVM running for 8989.056)
+05-Oct-2022 21:09:54 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 17172 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 21:09:54 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 21:09:54 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 21:09:59 INFO - Started MyrestApplication in 5.578 seconds (JVM running for 7.925)
+05-Oct-2022 21:10:07 INFO - user has been got
+05-Oct-2022 21:10:07 INFO - user has been got
+05-Oct-2022 21:10:07 INFO - removed all cart items
+05-Oct-2022 21:11:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 17172 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 21:11:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 21:11:45 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 21:11:46 INFO - Started MyrestApplication in 1.021 seconds (JVM running for 114.673)
+05-Oct-2022 21:12:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 17172 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 21:12:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 21:12:33 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 21:12:35 INFO - Started MyrestApplication in 1.492 seconds (JVM running for 163.71)
+05-Oct-2022 21:12:37 INFO - user has been got
+05-Oct-2022 21:12:37 INFO - user has been got
+05-Oct-2022 21:12:37 INFO - removed all cart items
+05-Oct-2022 21:13:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 17172 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 21:13:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 21:13:52 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 21:13:53 INFO - Started MyrestApplication in 1.45 seconds (JVM running for 241.858)
+05-Oct-2022 21:13:55 INFO - user has been got
+05-Oct-2022 21:13:55 INFO - user has been got
+05-Oct-2022 21:13:55 INFO - removed all cart items
+05-Oct-2022 21:14:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 17172 (C:\Users\LENOVO\Customer-Invoice-System\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\Customer-Invoice-System\Myrest)
+05-Oct-2022 21:14:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+05-Oct-2022 21:14:41 INFO - No active profile set, falling back to 1 default profile: "default"
+05-Oct-2022 21:14:42 INFO - Started MyrestApplication in 1.577 seconds (JVM running for 291.079)
+05-Oct-2022 21:14:44 INFO - user has been got
+05-Oct-2022 21:14:44 INFO - user has been got
+05-Oct-2022 21:14:44 ERROR - should not be empty
