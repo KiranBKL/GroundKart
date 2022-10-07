@@ -11,12 +11,12 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 import com.springrest.controller.ProductRestController;
-import com.springrest.dao.*;
 import com.springrest.exception.ProductException;
 import com.springrest.model.*;
+import com.springrest.repository.*;
 
 @Service
-public class ProductServiceImpl implements ProductService {
+public class ProductServiceImpl implements IProductService {
 
 	
 	Log log=LogFactory.getLog(ProductServiceImpl.class);
@@ -25,7 +25,7 @@ public class ProductServiceImpl implements ProductService {
 	Environment env;
 	String s;
     @Autowired
-    private ProductDao productDao;
+    private ProductRepository productDao;
     
     @PostConstruct
 	public void postConstruct()
@@ -67,5 +67,21 @@ public class ProductServiceImpl implements ProductService {
     	log.info(env.getProperty("UPDATEP"));
    	 productDao.save(product);
     }
+    
+    public List<Product> getProductsByCategory(String category) {
+    	log.info(env.getProperty("VPBC")+" "+category);
+   	 return productDao.getProductsByCategory(s);
+    }
+    
+    public List<Product> getProductsByName(String name) {
+    	log.info(env.getProperty("VPBN")+" "+name);
+   	 return productDao.getProductsByName(s);
+    }
+    
+    public List<Product> getProductsByBrand(String brand) {
+    	log.info(env.getProperty("VPBB"));
+   	 return productDao.getProductsBybrand(s);
+    }
+    
 }
 

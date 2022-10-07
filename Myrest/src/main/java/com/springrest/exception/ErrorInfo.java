@@ -1,4 +1,4 @@
-package com.springrest.model;
+package com.springrest.exception;
 
 import java.time.LocalDateTime;
 

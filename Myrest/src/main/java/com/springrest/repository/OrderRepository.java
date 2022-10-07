@@ -1,10 +1,10 @@
-package com.springrest.dao;
+package com.springrest.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import com.springrest.model.*;
 
 @Repository
-public interface CustomerDao extends JpaRepository<Customer,String>{
+public interface OrderRepository extends JpaRepository<Order,Integer>{
 
 }

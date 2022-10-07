@@ -1,3 +1,4 @@
+
 package com.springrest.exception;
 
 public class OrderException extends Exception

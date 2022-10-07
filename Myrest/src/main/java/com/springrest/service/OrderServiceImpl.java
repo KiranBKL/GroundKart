@@ -12,21 +12,21 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 import com.springrest.controller.ProductRestController;
-import com.springrest.dao.OrderDao;
 import com.springrest.exception.OrderException;
 import com.springrest.model.Order;
+import com.springrest.repository.OrderRepository;
 
 @Service
-public class OrderServiceImpl implements OrderService {
+public class OrderServiceImpl implements IOrderService {
 
-	Log log=LogFactory.getLog(OrderService.class);
+	Log log=LogFactory.getLog(IOrderService.class);
 	String s;
 	
 	@Autowired
 	private Environment environment;
 	
 	@Autowired
-	private OrderDao orderDao;
+	private OrderRepository orderDao;
 	
 	@PostConstruct
 	public void postConstruct()

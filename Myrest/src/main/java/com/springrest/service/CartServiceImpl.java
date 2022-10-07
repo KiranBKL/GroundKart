@@ -8,12 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
-import com.springrest.dao.*;
 import com.springrest.exception.CartException;
 import com.springrest.model.*;
+import com.springrest.repository.*;
 
 @Service
-public class CartServiceImpl implements CartService {
+public class CartServiceImpl implements ICartService {
 
 	Log log=LogFactory.getLog(CartServiceImpl.class);
 	
@@ -27,7 +27,7 @@ public class CartServiceImpl implements CartService {
 		this.s=env.getProperty("NOCART");
 	}
 	@Autowired
-	private CartDao cartDao;
+	private CartRepository cartDao;
 
 	public Cart getCartById(int cartId) throws CartException {
 		if(cartDao.existsById(cartId))

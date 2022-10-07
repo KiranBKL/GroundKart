@@ -20,11 +20,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springrest.dao.CartItemDao;
-import com.springrest.dao.CustomerDao;
-import com.springrest.dao.OrderDao;
-import com.springrest.dao.OrderItemDao;
-import com.springrest.dao.ProductDao;
 import com.springrest.exception.CartItemException;
 import com.springrest.exception.CustomerException;
 import com.springrest.exception.OrderException;
@@ -35,6 +30,11 @@ import com.springrest.model.Customer;
 import com.springrest.model.Order;
 import com.springrest.model.OrderItem;
 import com.springrest.model.Product;
+import com.springrest.repository.CartItemRepository;
+import com.springrest.repository.CustomerRepository;
+import com.springrest.repository.OrderRepository;
+import com.springrest.repository.OrderItemDao;
+import com.springrest.repository.ProductRepository;
 import com.springrest.service.CartItemServiceImpl;
 import com.springrest.service.CustomerServiceImpl;
 import com.springrest.service.OrderItemServiceImpl;
@@ -59,7 +59,7 @@ public class ProductRestController {
 	}
 	
 	@Autowired
-	ProductDao pd;
+	ProductRepository pd;
 	
 	@Autowired
 	CustomerServiceImpl customerService;

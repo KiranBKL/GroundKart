@@ -5,11 +5,11 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springrest.dao.OrderItemDao;
 import com.springrest.model.OrderItem;
+import com.springrest.repository.OrderItemDao;
 
 @Service
-public class OrderItemServiceImpl implements OrderItemService{
+public class OrderItemServiceImpl implements IOrderItemService{
 
 	Log log=LogFactory.getLog(OrderItemServiceImpl.class);
 	

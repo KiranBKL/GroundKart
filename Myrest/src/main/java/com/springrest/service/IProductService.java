@@ -5,7 +5,7 @@ import java.util.List;
 import com.springrest.exception.ProductException;
 import com.springrest.model.*;
 
-public interface ProductService {
+public interface IProductService {
     
     List<Product> getAllProducts();
     

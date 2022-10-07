@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.springrest.model.ErrorInfo;
-
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 

@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
-import com.springrest.dao.*;
 import com.springrest.exception.CustomerException;
 import com.springrest.model.*;
+import com.springrest.repository.*;
 
 @Service
 public class CustomerServiceImpl implements CustomerService {
@@ -26,7 +26,7 @@ public class CustomerServiceImpl implements CustomerService {
 	String s;
 	
     @Autowired
-    private CustomerDao customerDao;
+    private CustomerRepository customerDao;
     
     @PostConstruct
 	public void postConstruct()

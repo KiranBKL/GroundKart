@@ -11,20 +11,20 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 import com.springrest.controller.ProductRestController;
-import com.springrest.dao.CartItemDao;
 import com.springrest.exception.CartItemException;
 import com.springrest.model.*;
+import com.springrest.repository.CartItemRepository;
 
 @Service
-public class CartItemServiceImpl implements CartItemService {
+public class CartItemServiceImpl implements ICartItemService {
 
-	Log log=LogFactory.getLog(CartItemService.class);
+	Log log=LogFactory.getLog(ICartItemService.class);
 	
 	@Autowired
 	Environment env;
 	String s;
     @Autowired
-    private CartItemDao cartItemDao;
+    private CartItemRepository cartItemDao;
     
     @PostConstruct
 	public void postConstruct()
