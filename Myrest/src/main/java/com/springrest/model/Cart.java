@@ -35,7 +35,7 @@ public class Cart {
 	@OneToMany(mappedBy = "cart",cascade = CascadeType.ALL)
 	private List<CartItem> cartItem;
 
-	private double totalPrice;
+	
 	
 	
 
@@ -60,13 +60,13 @@ public class Cart {
 		this.cartItem = cartItem;
 	}
 
-	public double getTotalPrice() {
-		return totalPrice;
-	}
-
-	public void setTotalPrice(double totalPrice) {
-		this.totalPrice = totalPrice;
-	}
+//	public double getTotalPrice() {
+//		return totalPrice;
+//	}
+//
+//	public void setTotalPrice(double totalPrice) {
+//		this.totalPrice = totalPrice;
+//	}
 
 	public Customer getCustomer() {
 		return customer;

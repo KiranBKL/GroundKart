@@ -11,14 +11,14 @@ import com.springrest.model.*;
 @Repository
 public interface ProductRepository extends JpaRepository<Product,Integer> {
 	
-	@Query("select p from Product where p.productName like concat(:p,'%')")
+	@Query("select p from Product p where p.productName like concat(:p,'%')")
 	public List<Product> getProductsByName(@Param("p") String pname);
 	
-	@Query("select p from Product where p.category like concat(:p,'%')")
+	@Query("select p from Product p where p.productCategory like concat(:p,'%')")
 	public List<Product> getProductsByCategory(@Param("p") String category);
 	
-	@Query("select p from Product where p.brand like concat(:p,'%')")
-	public List<Product> getProductsBybrand(@Param("p") String category);
+	@Query("select p from Product p where p.brand like concat(:p,'%')")
+	public List<Product> getProductsBybrand(@Param("p") String brand);
 	
 	
 

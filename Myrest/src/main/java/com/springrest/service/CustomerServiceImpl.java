@@ -73,5 +73,16 @@ public class CustomerServiceImpl implements CustomerService {
 		log.info(customer.getUserName()+" "+env.getProperty("UPDATEC"));
 		customerDao.save(customer);
 	}
+
+	public Customer validate(String email, String pass) throws CustomerException {
+		Customer customer=getCutomerById(email);
+		if(customer.getPassword().equals(pass))
+		{
+			log.info(customer.getUserName()+" "+env.getProperty("VALID"));
+			return customer;
+		}
+		log.warn(env.getProperty("NOVALID"));
+		throw new CustomerException(env.getProperty("NOVALID"));
+	}
 }
 

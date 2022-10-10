@@ -33,7 +33,7 @@ import com.springrest.model.Product;
 import com.springrest.repository.CartItemRepository;
 import com.springrest.repository.CustomerRepository;
 import com.springrest.repository.OrderRepository;
-import com.springrest.repository.OrderItemDao;
+import com.springrest.repository.OrderItemRepository;
 import com.springrest.repository.ProductRepository;
 import com.springrest.service.CartItemServiceImpl;
 import com.springrest.service.CustomerServiceImpl;
@@ -42,24 +42,8 @@ import com.springrest.service.OrderServiceImpl;
 import com.springrest.service.ProductServiceImpl;
 
 @RestController
-@RequestMapping("/rest")
+@RequestMapping("/product")
 public class ProductRestController {
-	
-	
-	Log log=LogFactory.getLog(ProductRestController.class);
-	@GetMapping("/hello")
-	public String sayHiLogger()
-	{
-		log.info("Spring rest info");
-		log.error("error");
-		log.fatal("fatal");
-		log.debug("debug");
-		log.warn("warning");
-		return "hi";
-	}
-	
-	@Autowired
-	ProductRepository pd;
 	
 	@Autowired
 	CustomerServiceImpl customerService;
@@ -73,162 +57,71 @@ public class ProductRestController {
 	@Autowired
 	OrderItemServiceImpl orderItemService;
 	
-	
-	
 	@Autowired
 	CartItemServiceImpl cartItemService;
 	
+	Log log=LogFactory.getLog(ProductRestController.class);
 	
-	
-	@PostMapping("/add")
-	public void addCustomer(@RequestBody Customer c)
-	{
-		Cart ck=new Cart();
-		c.setCart(ck);
-		customerService.addCustomer(c);
-	}
-	
-	@PostMapping("/addcart/{userId}/{itemId}")
-	public void addToCart(@PathVariable("userId") String user,@PathVariable("itemId") int item) throws ProductException, CustomerException
-	{
-		
-		Customer c=customerService.getCutomerById(user);
-		Cart cart=c.getCart();
-		double cartPrice=cart.getTotalPrice();
-		
-		Product p=productService.getProductById(item);
-		cart.setTotalPrice(cartPrice+p.getProductPrice());
-		List<CartItem> cartItems=getKart(user);
-	   	 for (int i = 0; i < cartItems.size(); i++) 
-	   	 {
-	   		 CartItem cartItem = cartItems.get(i);
-	   		 if (p.getId() == (cartItem.getProduct().getId()))
-	   		 {
-	   			 cartItem.setQuantity(cartItem.getQuantity() + 1);
-	   			// cartItem.setPrice(cartItem.getQuantity() * cartItem.getProduct().getProductPrice());
-	   			 cartItemService.addCartItem(cartItem);
-	   			 return;
-	   		 }
-	   	 }
-	   	 
-	   	 CartItem cartItem = new CartItem();
-	   	 cartItem.setQuantity(1);
-	   	 cartItem.setProduct(p);
-	   	 //cartItem.setPrice(p.getProductPrice());
-	   	 cartItem.setCart(c.getCart());
-	   	 cartItemService.addCartItem(cartItem);
-		
-	}
-	
+	//1.
 	@PostMapping("/addproduct")
 	public void addProduct(@RequestBody Product p)
 	{
 		//Product p=new Product();
+		log.info("new product has been added");
 		productService.addProduct(p);
 	}
-	
-	@GetMapping("/getkart/{userId}")
-	
-	public List<CartItem> getKart(@PathVariable("userId") String user) throws CustomerException
-	{
-		Customer c=customerService.getCutomerById(user);
-		//System.out.println(c.getCart());
-		//System.out.println(c.getCart().getCartItem());
-		return c.getCart().getCartItem();
-	}
-	
-	@GetMapping("/getc")
-	public List<Customer> getCust()
-	{
-		return customerService.getCutomers();
-	}
-	
-	@GetMapping("/getp")
+
+	//2
+	@GetMapping("/getproducts")
 	public List<Product> getProduct()
 	{
-		
-		return pd.findAll();
+		log.info("getting the products");
+		return productService.getAllProducts();
 	}
 	
-	@PostMapping("/buykart/{userId}")
-	public void buyKart(@PathVariable("userId") String user) throws CustomerException
-	{
-		//double 
-		Order order=new Order();
-		Customer customer=customerService.getCutomerById(user);
-		order.setCustomer(customer);
-		order.setPrice(customer.getCart().getTotalPrice());
-		orderService.addOrder(order);
-		List<CartItem> l=getKart(user);
-		System.out.println(l);
-		//ListIterator<CartItem> k= l.listIterator();
-		for(CartItem k:l)
-		{
-			OrderItem o=new OrderItem();
-			
-			o.setPrice(k.getProduct().getProductPrice()*k.getQuantity());
-			o.setQuantity(k.getQuantity());
-			o.setProduct(k.getProduct());
-			o.setOrder(order);
-			//removeKartItem(k.next().getId());
-			//ci.delete(k.next());
-			orderItemService.addOrdItem(o);
-		}
-		customer.getCart().setTotalPrice(0);
-		cartItemService.reomveCartList(l);
-		
-	}
-	
-	@DeleteMapping("deletep/{id}")
+	//3
+	@DeleteMapping("deleteproduct/{id}")
 	public void deleteProduct(@PathVariable("id") int id) throws ProductException
 	{
+		log.info("removing the product");
 		productService.deleteProduct(id);
 	}
 	
-	@DeleteMapping("/remove/{kartitemid}")
-	public String removeKartItem(@PathVariable("kartitemid") int id) throws CartItemException
-	{
-		//CartItem c=cartItemService.getCartItemById(id);
-		//Cart cart=c.getCart();
-		
-		
-		//cart.deleteKartItem(c);
-		cartItemService.removeCartItemById(id);
-		return "huu"+id;
-		
-	}
-	
-	@PutMapping("updatekartitem")
-	public void updateItem(@RequestBody CartItem c)
-	{
-		cartItemService.updateCartItem(c);
-	}
-	
+	//4
 	@GetMapping("/getproduct/{pid}")
-	public Product getProduct(@PathVariable("pid") int id) throws ProductException
+	public Product getProduct(@PathVariable("pid") int id) throws ProductException 
 	{
 		return productService.getProductById(id);
 	}
 	
-	@PostMapping("/getcartitemid/{cid}")
-	public CartItem getCartItemId(@PathVariable("cid") int id) throws CartItemException
+	//5
+	@PutMapping("/updateproduct")
+	public void updateProduct(@RequestBody Product p)
 	{
-		return cartItemService.getCartItemById(id);
+		log.info("updating the product");
+		productService.updateProduct(p);
 	}
 	
-	@GetMapping("getorders/{user}")
-	public List<Order> getOrderList(@PathVariable("user") String user) throws CustomerException
+	//6
+	@GetMapping("/getpbybrand/{brand}")
+	public List<Product> getProductByBrand(@PathVariable("brand")String brand)
 	{
-		return customerService.getCutomerById(user).getOrderList();
+		return productService.getProductsByBrand(brand);
 	}
 	
-	@GetMapping("getorderitems/{oid}")
-	public List<OrderItem> getOrderList(@PathVariable("oid") int oid) throws OrderException
+	//7
+	@GetMapping("/getpbybrand/{name}")
+	public List<Product> getProductByNamae(@PathVariable("name") String name)
 	{
-		return orderService.getOrderById(oid).getOrderitemList();
+		return productService.getProductsByName(name);
 	}
 	
+	//8
+	@GetMapping("/getpbybrand/{category}")
+	public List<Product> getProductByCategory(@PathVariable("brand")String category)
+	{
+		return productService.getProductsByCategory(category);
+	}
 	
-	//@GetMapping("vieworder/{}")
 }
 

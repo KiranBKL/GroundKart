@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.springrest.model.OrderItem;
-import com.springrest.repository.OrderItemDao;
+import com.springrest.repository.OrderItemRepository;
 
 @Service
 public class OrderItemServiceImpl implements IOrderItemService{
@@ -14,7 +14,7 @@ public class OrderItemServiceImpl implements IOrderItemService{
 	Log log=LogFactory.getLog(OrderItemServiceImpl.class);
 	
 	@Autowired
-	OrderItemDao orderItemDao;
+	OrderItemRepository orderItemDao;
 	
 	@Override
 	public void addOrdItem(OrderItem ot) {

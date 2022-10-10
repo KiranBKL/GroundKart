@@ -70,17 +70,17 @@ public class ProductServiceImpl implements IProductService {
     
     public List<Product> getProductsByCategory(String category) {
     	log.info(env.getProperty("VPBC")+" "+category);
-   	 return productDao.getProductsByCategory(s);
+   	 return productDao.getProductsByCategory(category);
     }
     
     public List<Product> getProductsByName(String name) {
     	log.info(env.getProperty("VPBN")+" "+name);
-   	 return productDao.getProductsByName(s);
+   	 return productDao.getProductsByName(name);
     }
     
     public List<Product> getProductsByBrand(String brand) {
     	log.info(env.getProperty("VPBB"));
-   	 return productDao.getProductsBybrand(s);
+   	 return productDao.getProductsBybrand(brand);
     }
     
 }

@@ -1,5 +1,6 @@
 package com.springrest.model;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -12,6 +13,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import org.springframework.stereotype.Component;
 
@@ -36,6 +39,9 @@ public class Order {
 
 	private double price;
 	
+	@Temporal(TemporalType.DATE)
+	private Date date;
+	
 	public int getId() {
 		return id;
 	}
@@ -45,6 +51,14 @@ public class Order {
 	}
 
 
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
 
 	public Customer getCustomer() {
 		return customer;

@@ -79,6 +79,8 @@ public class CartItemServiceImpl implements ICartItemService {
 		log.info(env.getProperty("REMOVEALLCI"));
 		cartItemDao.deleteAllInBatch(l);
 	}
+	
+	
     
 }
 

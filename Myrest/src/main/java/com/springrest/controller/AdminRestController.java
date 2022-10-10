@@ -31,7 +31,7 @@ import com.springrest.service.ProductServiceImpl;
 @RequestMapping("/admin")
 public class AdminRestController {
 
-	Log log=LogFactory.getLog(ProductRestController.class);
+	Log log=LogFactory.getLog(AdminRestController.class);
 	
 	@Autowired
 	OrderServiceImpl orderService;
