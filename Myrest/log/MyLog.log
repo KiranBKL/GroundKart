@@ -1730,3 +1730,427 @@
 07-Oct-2022 21:36:42 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 9772 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
 07-Oct-2022 21:36:42 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
 07-Oct-2022 21:36:42 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:16:21 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:16:21 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:16:21 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:16:26 INFO - Started MyrestApplication in 6.396 seconds (JVM running for 7.828)
+10-Oct-2022 17:16:55 INFO - getting the products
+10-Oct-2022 17:16:55 INFO - got the product list
+10-Oct-2022 17:17:00 INFO - getting the customers
+10-Oct-2022 17:17:00 INFO - admin has got all customer list
+10-Oct-2022 17:18:53 INFO - new product has been added
+10-Oct-2022 17:18:53 INFO - admin added the new product
+10-Oct-2022 17:19:08 INFO - user registered successfully
+10-Oct-2022 17:19:36 INFO - getting the customers
+10-Oct-2022 17:19:36 INFO - admin has got all customer list
+10-Oct-2022 17:19:49 INFO - getting the products
+10-Oct-2022 17:19:49 INFO - got the product list
+10-Oct-2022 17:20:50 INFO - user has been got
+10-Oct-2022 17:20:50 ERROR - product not found
+10-Oct-2022 17:21:13 INFO - user has been got
+10-Oct-2022 17:21:13 INFO - got the product
+10-Oct-2022 17:21:13 INFO - user has been got
+10-Oct-2022 17:21:13 INFO - hi null
+10-Oct-2022 17:22:05 INFO - user has been got
+10-Oct-2022 17:22:05 INFO - got the product
+10-Oct-2022 17:22:05 INFO - user has been got
+10-Oct-2022 17:22:05 INFO - hi null
+10-Oct-2022 17:23:54 INFO - user registered successfully
+10-Oct-2022 17:25:09 INFO - user registered successfully
+10-Oct-2022 17:35:49 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:35:49 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:35:49 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:35:50 INFO - Started MyrestApplication in 1.094 seconds (JVM running for 1171.141)
+10-Oct-2022 17:35:51 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:35:51 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:35:51 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:35:52 INFO - Started MyrestApplication in 1.006 seconds (JVM running for 1173.655)
+10-Oct-2022 17:36:06 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:36:06 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:36:06 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:36:07 INFO - Started MyrestApplication in 0.96 seconds (JVM running for 1188.691)
+10-Oct-2022 17:36:09 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:36:09 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:36:09 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:36:10 INFO - Started MyrestApplication in 0.75 seconds (JVM running for 1191.028)
+10-Oct-2022 17:36:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:36:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:36:23 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:36:23 INFO - Started MyrestApplication in 0.668 seconds (JVM running for 1204.792)
+10-Oct-2022 17:36:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:36:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:36:37 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:36:37 INFO - Started MyrestApplication in 0.748 seconds (JVM running for 1218.626)
+10-Oct-2022 17:38:17 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:38:17 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:38:17 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:38:18 INFO - Started MyrestApplication in 0.691 seconds (JVM running for 1319.048)
+10-Oct-2022 17:38:50 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:38:50 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:38:50 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:38:51 INFO - Started MyrestApplication in 0.765 seconds (JVM running for 1352.261)
+10-Oct-2022 17:39:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:39:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:39:07 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:39:08 INFO - Started MyrestApplication in 0.839 seconds (JVM running for 1369.049)
+10-Oct-2022 17:40:10 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:40:10 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:40:10 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:40:11 INFO - Started MyrestApplication in 0.677 seconds (JVM running for 1432.111)
+10-Oct-2022 17:41:02 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:41:02 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:41:02 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:41:03 INFO - Started MyrestApplication in 0.668 seconds (JVM running for 1484.41)
+10-Oct-2022 17:42:11 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:42:11 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:42:11 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:42:12 INFO - Started MyrestApplication in 0.595 seconds (JVM running for 1553.333)
+10-Oct-2022 17:43:26 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 17:43:26 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 17:43:26 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 17:43:26 INFO - Started MyrestApplication in 0.85 seconds (JVM running for 1627.668)
+10-Oct-2022 18:04:03 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:04:03 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:04:03 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:04:04 INFO - Started MyrestApplication in 0.829 seconds (JVM running for 2865.334)
+10-Oct-2022 18:05:20 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:05:20 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:05:20 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:05:21 INFO - Started MyrestApplication in 0.775 seconds (JVM running for 2941.957)
+10-Oct-2022 18:09:27 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:09:27 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:09:27 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:09:27 INFO - Started MyrestApplication in 0.707 seconds (JVM running for 3188.777)
+10-Oct-2022 18:09:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:09:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:09:36 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:09:37 INFO - Started MyrestApplication in 0.63 seconds (JVM running for 3198.243)
+10-Oct-2022 18:10:36 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:10:36 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:10:36 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:10:37 INFO - Started MyrestApplication in 0.601 seconds (JVM running for 3258.213)
+10-Oct-2022 18:11:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:11:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:11:29 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:11:29 INFO - Started MyrestApplication in 0.618 seconds (JVM running for 3310.665)
+10-Oct-2022 18:13:18 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:13:18 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:13:18 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:13:18 INFO - Started MyrestApplication in 0.727 seconds (JVM running for 3419.651)
+10-Oct-2022 18:14:12 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:14:12 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:14:12 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:14:13 INFO - Started MyrestApplication in 0.731 seconds (JVM running for 3474.343)
+10-Oct-2022 18:14:49 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:14:49 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:14:49 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:14:50 INFO - Started MyrestApplication in 0.651 seconds (JVM running for 3511.051)
+10-Oct-2022 18:17:01 INFO - user has been got
+10-Oct-2022 18:17:01 WARN - user not valid
+10-Oct-2022 18:17:12 INFO - user has been got
+10-Oct-2022 18:17:12 INFO - kiran user valid
+10-Oct-2022 18:18:17 INFO - user could not register
+10-Oct-2022 18:18:40 INFO - user has been got
+10-Oct-2022 18:18:40 INFO - kiran user valid
+10-Oct-2022 18:19:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:19:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:19:37 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:19:38 INFO - Started MyrestApplication in 0.649 seconds (JVM running for 3799.344)
+10-Oct-2022 18:21:37 INFO - user could not register
+10-Oct-2022 18:23:41 INFO - user has been got
+10-Oct-2022 18:23:41 INFO - kiran user has been updated his/her profile
+10-Oct-2022 18:24:23 INFO - getting the customers
+10-Oct-2022 18:24:23 INFO - admin has got all customer list
+10-Oct-2022 18:25:17 INFO - removing the user
+10-Oct-2022 18:25:17 WARN - kiran07@gmail.com user has been removed
+10-Oct-2022 18:29:01 INFO - new product has been added
+10-Oct-2022 18:29:01 INFO - admin added the new product
+10-Oct-2022 18:30:07 INFO - getting the products
+10-Oct-2022 18:30:07 INFO - got the product list
+10-Oct-2022 18:31:07 INFO - removing the product
+10-Oct-2022 18:31:07 INFO - admin deleted the product
+10-Oct-2022 18:31:07 ERROR - product not found
+10-Oct-2022 18:31:18 INFO - removing the product
+10-Oct-2022 18:31:18 ERROR - product not found
+10-Oct-2022 18:31:39 INFO - removing the product
+10-Oct-2022 18:31:39 INFO - admin deleted the product
+10-Oct-2022 18:31:39 ERROR - product not found
+10-Oct-2022 18:31:50 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:31:50 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:31:50 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:31:51 INFO - Started MyrestApplication in 1.109 seconds (JVM running for 4532.689)
+10-Oct-2022 18:34:46 INFO - new product has been added
+10-Oct-2022 18:34:46 INFO - admin added the new product
+10-Oct-2022 18:35:36 INFO - getting the products
+10-Oct-2022 18:35:36 INFO - got the product list
+10-Oct-2022 18:35:42 INFO - got the product
+10-Oct-2022 18:36:30 INFO - updating the product
+10-Oct-2022 18:36:30 INFO - product has been updated
+10-Oct-2022 18:36:55 INFO - getting the products
+10-Oct-2022 18:36:55 INFO - got the product list
+10-Oct-2022 18:37:31 INFO - updating the product
+10-Oct-2022 18:37:31 INFO - product has been updated
+10-Oct-2022 18:37:37 INFO - getting the products
+10-Oct-2022 18:37:37 INFO - got the product list
+10-Oct-2022 18:38:20 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:38:20 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:38:20 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:38:21 INFO - Started MyrestApplication in 1.492 seconds (JVM running for 4922.373)
+10-Oct-2022 18:38:41 INFO - got projects by brand
+10-Oct-2022 18:41:09 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:41:09 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:41:09 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:41:09 INFO - Started MyrestApplication in 0.61 seconds (JVM running for 5090.55)
+10-Oct-2022 18:41:15 INFO - got projects by name Foot
+10-Oct-2022 18:41:33 INFO - got projects by category Foo
+10-Oct-2022 18:44:46 INFO - user has been got
+10-Oct-2022 18:44:46 INFO - got the product
+10-Oct-2022 18:44:46 INFO - user has been got
+10-Oct-2022 18:44:46 INFO - hi null
+10-Oct-2022 18:45:11 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:45:11 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:45:11 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:45:12 INFO - Started MyrestApplication in 0.584 seconds (JVM running for 5332.958)
+10-Oct-2022 18:45:17 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 972 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+10-Oct-2022 18:45:17 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+10-Oct-2022 18:45:17 INFO - No active profile set, falling back to 1 default profile: "default"
+10-Oct-2022 18:45:18 INFO - Started MyrestApplication in 0.59 seconds (JVM running for 5339.26)
+10-Oct-2022 18:46:07 INFO - user has been got
+10-Oct-2022 18:46:07 INFO - got the product
+10-Oct-2022 18:46:07 INFO - user has been got
+10-Oct-2022 18:46:07 INFO - hi null
+10-Oct-2022 18:46:45 INFO - user has been got
+10-Oct-2022 18:48:16 INFO - user has been got cart item
+10-Oct-2022 18:48:16 INFO - user changed the quantity
+10-Oct-2022 18:49:39 INFO - user has been got
+10-Oct-2022 18:50:12 INFO - user has been got
+10-Oct-2022 18:50:33 INFO - getting the products
+10-Oct-2022 18:50:33 INFO - got the product list
+10-Oct-2022 18:50:57 INFO - user has been got
+10-Oct-2022 18:50:57 INFO - got the product
+10-Oct-2022 18:50:57 INFO - user has been got
+10-Oct-2022 18:50:57 INFO - hi null
+10-Oct-2022 18:53:11 INFO - user has been got
+10-Oct-2022 18:53:11 INFO - user has been got
+10-Oct-2022 18:53:11 INFO - product has been updated
+10-Oct-2022 18:53:11 INFO - order item has been added
+10-Oct-2022 18:53:11 INFO - product has been updated
+10-Oct-2022 18:53:11 INFO - order item has been added
+10-Oct-2022 18:53:11 INFO - removed all cart items
+10-Oct-2022 18:54:37 INFO - user has been got
+10-Oct-2022 18:54:37 INFO - got the product
+10-Oct-2022 18:54:37 INFO - user has been got
+10-Oct-2022 18:54:37 INFO - hi null
+10-Oct-2022 18:55:20 INFO - user has been got cart item
+10-Oct-2022 18:55:20 INFO - product has been updated
+10-Oct-2022 18:55:20 INFO - order item has been added
+10-Oct-2022 18:55:20 INFO - user has been removed
+10-Oct-2022 18:56:47 INFO - got the product
+10-Oct-2022 18:56:47 INFO - user has been got
+10-Oct-2022 18:56:47 INFO - product has been updated
+10-Oct-2022 18:56:47 INFO - order item has been added
+10-Oct-2022 18:58:54 INFO - user has been got
+10-Oct-2022 18:59:53 INFO - Order has been got
+11-Oct-2022 12:55:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 18124 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 12:55:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 12:55:07 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 12:55:22 INFO - Started MyrestApplication in 15.85 seconds (JVM running for 19.536)
+11-Oct-2022 12:55:32 INFO - getting the customers
+11-Oct-2022 12:55:32 INFO - admin has got all customer list
+11-Oct-2022 12:57:16 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 18124 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 12:57:16 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 12:57:16 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 12:57:17 INFO - Started MyrestApplication in 0.682 seconds (JVM running for 134.229)
+11-Oct-2022 12:57:29 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 8788 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 12:57:29 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 12:57:29 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 12:57:51 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 12:57:51 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 12:57:51 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 12:57:55 INFO - Started MyrestApplication in 4.06 seconds (JVM running for 4.942)
+11-Oct-2022 13:01:58 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:01:58 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:01:58 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:01:59 INFO - Started MyrestApplication in 0.719 seconds (JVM running for 248.737)
+11-Oct-2022 13:02:28 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:02:28 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:02:28 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:02:29 INFO - Started MyrestApplication in 0.773 seconds (JVM running for 278.703)
+11-Oct-2022 13:04:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:04:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:04:33 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:04:56 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:04:56 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:04:56 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:04:57 INFO - Started MyrestApplication in 0.813 seconds (JVM running for 426.566)
+11-Oct-2022 13:22:24 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:22:24 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:22:24 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:22:25 INFO - Started MyrestApplication in 0.877 seconds (JVM running for 1474.383)
+11-Oct-2022 13:23:10 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:23:10 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:23:10 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:23:11 INFO - Started MyrestApplication in 0.784 seconds (JVM running for 1520.535)
+11-Oct-2022 13:23:40 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:23:40 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:23:40 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:23:41 INFO - Started MyrestApplication in 0.767 seconds (JVM running for 1550.959)
+11-Oct-2022 13:24:13 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:24:13 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:24:13 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:24:14 INFO - Started MyrestApplication in 0.764 seconds (JVM running for 1583.426)
+11-Oct-2022 13:25:35 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:25:35 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:25:35 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:25:36 INFO - Started MyrestApplication in 0.788 seconds (JVM running for 1666.005)
+11-Oct-2022 13:25:43 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:25:43 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:25:43 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:25:44 INFO - Started MyrestApplication in 0.756 seconds (JVM running for 1673.536)
+11-Oct-2022 13:26:55 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:26:55 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:26:55 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:28:59 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 13:28:59 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 13:28:59 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 13:29:00 INFO - Started MyrestApplication in 0.784 seconds (JVM running for 1869.948)
+11-Oct-2022 18:38:51 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:38:51 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:38:51 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:38:53 INFO - Started MyrestApplication in 1.532 seconds (JVM running for 20462.51)
+11-Oct-2022 18:40:23 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:40:23 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:40:23 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:40:24 INFO - Started MyrestApplication in 1.022 seconds (JVM running for 20553.868)
+11-Oct-2022 18:42:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:42:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:42:07 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:42:08 INFO - Started MyrestApplication in 0.902 seconds (JVM running for 20657.674)
+11-Oct-2022 18:42:45 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:42:45 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:42:45 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:44:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:44:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:44:33 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:44:34 INFO - Started MyrestApplication in 0.936 seconds (JVM running for 20803.747)
+11-Oct-2022 18:46:33 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:46:33 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:46:33 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:46:34 INFO - Started MyrestApplication in 1.18 seconds (JVM running for 20924.182)
+11-Oct-2022 18:46:57 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:46:57 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:46:57 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:46:58 INFO - Started MyrestApplication in 0.869 seconds (JVM running for 20947.522)
+11-Oct-2022 18:47:39 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:47:39 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:47:39 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:47:40 INFO - Started MyrestApplication in 0.854 seconds (JVM running for 20989.78)
+11-Oct-2022 18:48:21 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:48:21 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:48:21 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:48:22 INFO - Started MyrestApplication in 0.954 seconds (JVM running for 21032.122)
+11-Oct-2022 18:51:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:51:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:51:41 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:51:42 INFO - Started MyrestApplication in 1.022 seconds (JVM running for 21232.133)
+11-Oct-2022 18:53:10 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:53:10 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:53:10 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:53:11 INFO - Started MyrestApplication in 0.97 seconds (JVM running for 21320.938)
+11-Oct-2022 18:55:40 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:55:40 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:55:40 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:55:41 INFO - Started MyrestApplication in 1.016 seconds (JVM running for 21470.554)
+11-Oct-2022 18:55:52 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:55:52 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:55:52 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:55:53 INFO - Started MyrestApplication in 0.931 seconds (JVM running for 21482.538)
+11-Oct-2022 18:56:48 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:56:48 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:56:48 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:56:49 INFO - Started MyrestApplication in 1.079 seconds (JVM running for 21538.414)
+11-Oct-2022 18:58:02 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 10976 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:58:02 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:58:02 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:58:03 INFO - Started MyrestApplication in 0.938 seconds (JVM running for 21613.172)
+11-Oct-2022 18:58:14 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 8492 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:58:14 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:58:14 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:58:40 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 18:58:40 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 18:58:40 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 18:58:47 INFO - Started MyrestApplication in 7.675 seconds (JVM running for 9.485)
+11-Oct-2022 18:59:38 INFO - getting the customers
+11-Oct-2022 18:59:38 INFO - admin has got all customer list
+11-Oct-2022 19:01:07 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 19:01:07 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 19:01:07 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 19:01:08 INFO - Started MyrestApplication in 1.338 seconds (JVM running for 150.715)
+11-Oct-2022 19:01:54 INFO - getting the customers
+11-Oct-2022 19:01:54 INFO - admin has got all customer list
+11-Oct-2022 19:03:18 INFO - getting the customers
+11-Oct-2022 19:03:18 INFO - admin has got all customer list
+11-Oct-2022 19:03:51 INFO - getting the customers
+11-Oct-2022 19:03:51 INFO - admin has got all customer list
+11-Oct-2022 19:04:37 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 19:04:37 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 19:04:37 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 19:04:39 INFO - Started MyrestApplication in 2.111 seconds (JVM running for 361.604)
+11-Oct-2022 19:04:40 INFO - getting the products
+11-Oct-2022 19:04:40 INFO - got the product list
+11-Oct-2022 19:04:42 INFO - getting the products
+11-Oct-2022 19:04:42 INFO - got the product list
+11-Oct-2022 19:04:50 INFO - getting the products
+11-Oct-2022 19:04:50 INFO - got the product list
+11-Oct-2022 19:04:58 INFO - getting the products
+11-Oct-2022 19:04:58 INFO - got the product list
+11-Oct-2022 19:06:05 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 19:06:05 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 19:06:05 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 19:06:06 INFO - Started MyrestApplication in 1.961 seconds (JVM running for 448.849)
+11-Oct-2022 19:06:12 INFO - getting the products
+11-Oct-2022 19:06:12 INFO - got the product list
+11-Oct-2022 19:06:13 INFO - getting the products
+11-Oct-2022 19:06:13 INFO - got the product list
+11-Oct-2022 19:06:19 INFO - getting the products
+11-Oct-2022 19:06:19 INFO - got the product list
+11-Oct-2022 19:06:20 INFO - getting the products
+11-Oct-2022 19:06:20 INFO - got the product list
+11-Oct-2022 19:06:34 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 19:06:34 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 19:06:34 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 19:06:36 INFO - Started MyrestApplication in 1.906 seconds (JVM running for 478.542)
+11-Oct-2022 19:06:47 INFO - getting the products
+11-Oct-2022 19:06:47 INFO - got the product list
+11-Oct-2022 19:06:48 INFO - getting the products
+11-Oct-2022 19:06:48 INFO - got the product list
+11-Oct-2022 19:06:49 INFO - getting the products
+11-Oct-2022 19:06:49 INFO - got the product list
+11-Oct-2022 19:07:56 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 19:07:56 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 19:07:56 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 19:07:57 INFO - Started MyrestApplication in 0.945 seconds (JVM running for 559.563)
+11-Oct-2022 19:08:25 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 19:08:25 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 19:08:25 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 19:08:27 INFO - Started MyrestApplication in 1.781 seconds (JVM running for 589.044)
+11-Oct-2022 19:08:28 INFO - getting the products
+11-Oct-2022 19:08:28 INFO - got the product list
+11-Oct-2022 19:08:49 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 19:08:49 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 19:08:49 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 19:08:50 INFO - Started MyrestApplication in 0.902 seconds (JVM running for 612.423)
+11-Oct-2022 19:08:52 INFO - getting the products
+11-Oct-2022 19:08:52 INFO - got the product list
+11-Oct-2022 19:08:55 INFO - getting the products
+11-Oct-2022 19:08:55 INFO - got the product list
+11-Oct-2022 19:09:06 INFO - getting the products
+11-Oct-2022 19:09:06 INFO - got the product list
+11-Oct-2022 19:11:54 INFO - getting the products
+11-Oct-2022 19:11:54 INFO - got the product list
+11-Oct-2022 19:12:50 INFO - getting the customers
+11-Oct-2022 19:12:50 INFO - admin has got all customer list
+11-Oct-2022 20:38:41 INFO - Starting MyrestApplication using Java 17.0.4.1 on DESKTOP-DBRKQDS with PID 12424 (C:\Users\LENOVO\git\GroundKart\Myrest\target\classes started by KIRAN in C:\Users\LENOVO\git\GroundKart\Myrest)
+11-Oct-2022 20:38:41 DEBUG - Running with Spring Boot v2.7.3, Spring v5.3.22
+11-Oct-2022 20:38:41 INFO - No active profile set, falling back to 1 default profile: "default"
+11-Oct-2022 20:38:42 INFO - Started MyrestApplication in 0.892 seconds (JVM running for 6004.483)

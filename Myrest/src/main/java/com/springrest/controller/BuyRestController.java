@@ -55,7 +55,7 @@ public class BuyRestController {
 
 	//1.checkout the cart
 	@PostMapping("/buycart/{userId}")
-	public void buyKart(@PathVariable("userId") String user) throws CustomerException, CartItemException
+	public String buyKart(@PathVariable("userId") String user) throws CustomerException, CartItemException
 	{
 		//double 
 		Order order=new Order();
@@ -95,6 +95,8 @@ public class BuyRestController {
 		order.setPrice(price);
 		//customer.getCart().setTotalPrice(0);
 		cartItemService.reomveCartList(l);
+		
+		return "Checkout "+price;
 		//l.clear();
 		//log.info(customer.getUserName()+"Bought the cart");
 		
@@ -102,7 +104,7 @@ public class BuyRestController {
 	
 	//2.buying single item which is cart
 	@PostMapping("/buyfromcart/{kartitemid}")
-	public void buyFromCart(@PathVariable("kartitemid") int id) throws CartItemException
+	public String buyFromCart(@PathVariable("kartitemid") int id) throws CartItemException
 	{
 		CartItem cartItem=cartItemService.getCartItemById(id);
 		Order order=new Order();
@@ -120,11 +122,12 @@ public class BuyRestController {
 		orderItemService.addOrdItem(orderItem);
 		//log.info(cartItem.getCart().getCustomer().getUserName()+"Bought the item from cart");
 		crc.removeKartItem(id);
+		return "Cost "+order.getPrice();
 	}
 	
 	//3.directly buying from product
 	@PostMapping("/directbuy/{userid}/{productid}")
-	public void buyProduct(@PathVariable("userid") String user,@PathVariable("productid") int id) throws ProductException, CustomerException
+	public String buyProduct(@PathVariable("userid") String user,@PathVariable("productid") int id) throws ProductException, CustomerException
 	{
 		Product product=productService.getProductById(id);
 		Order order=new Order();
@@ -142,5 +145,7 @@ public class BuyRestController {
 		productService.updateProduct(product);
 		orderItemService.addOrdItem(orderItem);
 		//log.info(customerService.getCutomerById(user).getUserName()+"Bought the item from home");
+		
+		return "Cost "+order.getPrice();
 	}
 }

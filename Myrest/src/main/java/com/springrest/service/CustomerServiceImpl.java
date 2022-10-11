@@ -34,9 +34,15 @@ public class CustomerServiceImpl implements CustomerService {
 		this.s=env.getProperty("NOUSER");
 	}
 
-    public void addCustomer(Customer customer) {  
+    public boolean addCustomer(Customer customer) {  
+    	if(!customerDao.existsById(customer.getEmailId()))
+    	{
     	log.info(env.getProperty("REGISTER"));
-   	 customerDao.save(customer);
+   	 	customerDao.save(customer);
+   	 	return true;
+    	}
+    	log.info(env.getProperty("NOREG"));
+    	return false;
     }
 
 	@Override

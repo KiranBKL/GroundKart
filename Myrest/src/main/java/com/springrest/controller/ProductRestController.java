@@ -9,7 +9,11 @@ import javax.swing.text.html.HTMLDocument.Iterator;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.Mapping;
@@ -46,6 +50,9 @@ import com.springrest.service.ProductServiceImpl;
 public class ProductRestController {
 	
 	@Autowired
+	Environment env;
+	
+	@Autowired
 	CustomerServiceImpl customerService;
 	
 	@Autowired
@@ -64,11 +71,16 @@ public class ProductRestController {
 	
 	//1.
 	@PostMapping("/addproduct")
-	public void addProduct(@RequestBody Product p)
+	public ResponseEntity<?> addProduct(@RequestBody Product p,BindingResult br)
 	{
+		if(br.hasErrors())
+		{
+		return new ResponseEntity<String>(env.getProperty("VALIDERROR"),HttpStatus.BAD_REQUEST);
+		}
 		//Product p=new Product();
 		log.info("new product has been added");
 		productService.addProduct(p);
+		return new ResponseEntity<String>(env.getProperty("ADDPRODUCT"),HttpStatus.OK);
 	}
 
 	//2
@@ -81,10 +93,11 @@ public class ProductRestController {
 	
 	//3
 	@DeleteMapping("deleteproduct/{id}")
-	public void deleteProduct(@PathVariable("id") int id) throws ProductException
+	public String deleteProduct(@PathVariable("id") int id) throws ProductException
 	{
 		log.info("removing the product");
 		productService.deleteProduct(id);
+		return env.getProperty("DELETEP");
 	}
 	
 	//4
@@ -96,10 +109,11 @@ public class ProductRestController {
 	
 	//5
 	@PutMapping("/updateproduct")
-	public void updateProduct(@RequestBody Product p)
+	public String updateProduct(@RequestBody Product p)
 	{
 		log.info("updating the product");
 		productService.updateProduct(p);
+		return env.getProperty("UPDATEP");
 	}
 	
 	//6
@@ -110,15 +124,15 @@ public class ProductRestController {
 	}
 	
 	//7
-	@GetMapping("/getpbybrand/{name}")
+	@GetMapping("/getpbyname/{name}")
 	public List<Product> getProductByNamae(@PathVariable("name") String name)
 	{
 		return productService.getProductsByName(name);
 	}
 	
 	//8
-	@GetMapping("/getpbybrand/{category}")
-	public List<Product> getProductByCategory(@PathVariable("brand")String category)
+	@GetMapping("/getpbycategory/{category}")
+	public List<Product> getProductByCategory(@PathVariable("category")String category)
 	{
 		return productService.getProductsByCategory(category);
 	}

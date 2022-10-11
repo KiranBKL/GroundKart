@@ -24,16 +24,16 @@ public class LoginRestController {
 	@Autowired
 	CustomerServiceImpl customerService;
 	
-	//1.
-	@GetMapping("/getcustomers")
-	public List<Customer> getCust()
-	{
-		log.info("getting the customers");
-		return customerService.getCutomers();
-	}
+//	//1.
+//	@GetMapping("/getcustomers")
+//	public List<Customer> getCust()
+//	{
+//		log.info("getting the customers");
+//		return customerService.getCutomers();
+//	}
 	
 	//2
-	@GetMapping("/validate/{email}/{pass}")
+	@GetMapping("/login/{email}/{pass}")
 	public Customer validate(@PathVariable("email") String email,@PathVariable("pass") String pass) throws CustomerException
 	{
 		return customerService.validate(email,pass);

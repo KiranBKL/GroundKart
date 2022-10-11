@@ -5,6 +5,7 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,6 +32,9 @@ public class CartRestController {
 	Log log=LogFactory.getLog(CartRestController.class);
 
 	@Autowired
+	Environment env;
+	
+	@Autowired
 	CartItemServiceImpl cartItemService;
 	
 	@Autowired
@@ -53,7 +57,7 @@ public class CartRestController {
 	
 	//5.adding to cart
 	@PostMapping("/addcart/{userId}/{productid}")
-	public void addToCart(@PathVariable("userId") String user,@PathVariable("productid") int item) throws ProductException, CustomerException, CartItemException
+	public String addToCart(@PathVariable("userId") String user,@PathVariable("productid") int item) throws ProductException, CustomerException, CartItemException
 	{
 		
 		Customer customer=customerService.getCutomerById(user);
@@ -72,7 +76,7 @@ public class CartRestController {
 	   			 cartItem.setQuantity(cartItem.getQuantity() + 1);
 	   			// cartItem.setPrice(cartItem.getQuantity() * cartItem.getProduct().getProductPrice());
 	   			 cartItemService.addCartItem(cartItem);
-	   			 return;
+	   			return p.getProductName()+"added to your cart";
 	   		 }
 	   	 }
 	   	 
@@ -83,12 +87,13 @@ public class CartRestController {
 	   	 cartItem.setCart(customer.getCart());
 	   	 cartItemService.addCartItem(cartItem);
 	   	// log.info(customer.getUserName()+" "+p.getProductName()+" "+env.getProperty("ADDTOCART"));
+	   	 return p.getProductName()+" added to your cart";
 		
 	}
 	
 	//3.deleting from cart
 	@DeleteMapping("/removefromcart/{kartitemid}")
-	public void removeKartItem(@PathVariable("kartitemid") int id) throws CartItemException
+	public String removeKartItem(@PathVariable("kartitemid") int id) throws CartItemException
 	{
 		//CartItem c=cartItemService.getCartItemById(id);
 		//Cart cart=c.getCart();
@@ -98,16 +103,20 @@ public class CartRestController {
 		//log.info(cartItemService.getCartItemById(id).getCart().getCustomer().getUserName()+"removed "+cartItemService.getCartItemById(id).getProduct().getProductName()+"removed cart");
 		cartItemService.removeCartItemById(id);
 		//return "huu"+id;
+		
+		return " removed item from cart";
 	}
 	
 	//4.updating quantity of item in cart
 	@PutMapping("/updatecartitem/{id}/{quantity}")
-	public void updateItem(@PathVariable("id") int cartItemId,@PathVariable("quantity") int quantity) throws CartItemException
+	public String updateItem(@PathVariable("id") int cartItemId,@PathVariable("quantity") int quantity) throws CartItemException
 	{
 		CartItem cartItem=cartItemService.getCartItemById(cartItemId);
 		//cartItem.setPrice(cartItem.getProduct().getProductPrice()*quantity);
 		cartItem.setQuantity(quantity);
 		cartItemService.updateCartItem(cartItem);
 		//log.info(cartItemService.getCartItemById(cartItemId).getCart().getCustomer().getUserName()+" updated quantity of");
+	
+		return " updated cart item";
 	}
 }

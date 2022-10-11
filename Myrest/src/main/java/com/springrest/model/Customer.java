@@ -10,6 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 import org.springframework.stereotype.Component;
 
@@ -21,10 +22,18 @@ public class Customer {
 	
 	@Id
 	String emailId;
+	
+	@NotNull
 	String userName;
+	
+	@NotNull
 	String password;
+	
+	@NotNull
 	int age;
 	String address;
+	
+	@NotNull
 	String phoneNumber;
 	
 	@OneToOne(cascade = CascadeType.ALL)

@@ -26,7 +26,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class Product  {
 
 	//private static final long serialVersionUID = 5186013952828648626L;
-
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
@@ -35,18 +35,21 @@ public class Product  {
 	private String productCategory;
 
 	
-
+	@NotNull
 	@Column(name = "brand")
 	private String brand;
 
+	@NotNull
 	@NotEmpty(message = "Product Name is mandatory")
 	@Column(name = "name")
 	private String productName;
 
+	@NotNull
 	@NotNull(message = "Please provide some price")
 	@Column(name = "price")
 	private double productPrice;
 
+	@NotNull
 	@Column(name = "unit")
 	private int unitStock;
 	
