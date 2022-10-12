@@ -10,6 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 import org.springframework.stereotype.Component;
@@ -19,21 +20,22 @@ import org.springframework.stereotype.Component;
 @Table(name = "customer")
 public class Customer {
 	
-	
+	@NotEmpty
 	@Id
 	String emailId;
 	
-	@NotNull
+	@NotEmpty
 	String userName;
 	
-	@NotNull
+	@NotEmpty
 	String password;
 	
-	@NotNull
+	
 	int age;
+	
 	String address;
 	
-	@NotNull
+	@NotEmpty
 	String phoneNumber;
 	
 	@OneToOne(cascade = CascadeType.ALL)

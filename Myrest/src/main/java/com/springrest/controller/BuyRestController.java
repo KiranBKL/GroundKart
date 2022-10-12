@@ -7,6 +7,8 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -55,16 +57,13 @@ public class BuyRestController {
 
 	//1.checkout the cart
 	@PostMapping("/buycart/{userId}")
-	public String buyKart(@PathVariable("userId") String user) throws CustomerException, CartItemException
+	public ResponseEntity<?> buyKart(@PathVariable("userId") String user) throws CustomerException, CartItemException
 	{
 		//double 
-		Order order=new Order();
-		order.setDate(new Date());
+
 		Customer customer=customerService.getCutomerById(user);
-		order.setCustomer(customer);
-		
-		orderService.addOrder(order);
-		List<CartItem> l=crc.getCart(user);
+	
+		List<CartItem> l=customer.getCart().getCartItem();
 		//System.out.println(l);
 		//ListIterator<CartItem> k= l.listIterator();
 		if(l.isEmpty())
@@ -73,6 +72,11 @@ public class BuyRestController {
 			throw new CartItemException(env.getProperty("EMPTY"));
 		
 		}
+		Order order=new Order();
+		order.setDate(new Date());
+		order.setCustomer(customer);
+		orderService.addOrder(order);
+		
 		double price=0;
 		for(CartItem k:l)
 		{
@@ -96,7 +100,8 @@ public class BuyRestController {
 		//customer.getCart().setTotalPrice(0);
 		cartItemService.reomveCartList(l);
 		
-		return "Checkout "+price;
+		return new ResponseEntity<String>(""+price,HttpStatus.ACCEPTED);
+
 		//l.clear();
 		//log.info(customer.getUserName()+"Bought the cart");
 		
@@ -104,7 +109,7 @@ public class BuyRestController {
 	
 	//2.buying single item which is cart
 	@PostMapping("/buyfromcart/{kartitemid}")
-	public String buyFromCart(@PathVariable("kartitemid") int id) throws CartItemException
+	public ResponseEntity<?> buyFromCart(@PathVariable("kartitemid") int id) throws CartItemException
 	{
 		CartItem cartItem=cartItemService.getCartItemById(id);
 		Order order=new Order();
@@ -122,12 +127,13 @@ public class BuyRestController {
 		orderItemService.addOrdItem(orderItem);
 		//log.info(cartItem.getCart().getCustomer().getUserName()+"Bought the item from cart");
 		crc.removeKartItem(id);
-		return "Cost "+order.getPrice();
+		return new ResponseEntity<String>(""+order.getPrice(),HttpStatus.ACCEPTED);
+
 	}
 	
 	//3.directly buying from product
 	@PostMapping("/directbuy/{userid}/{productid}")
-	public String buyProduct(@PathVariable("userid") String user,@PathVariable("productid") int id) throws ProductException, CustomerException
+	public ResponseEntity<?> buyProduct(@PathVariable("userid") String user,@PathVariable("productid") int id) throws ProductException, CustomerException
 	{
 		Product product=productService.getProductById(id);
 		Order order=new Order();
@@ -146,6 +152,7 @@ public class BuyRestController {
 		orderItemService.addOrdItem(orderItem);
 		//log.info(customerService.getCutomerById(user).getUserName()+"Bought the item from home");
 		
-		return "Cost "+order.getPrice();
+		return new ResponseEntity<String>(""+order.getPrice(),HttpStatus.ACCEPTED);
+
 	}
 }

@@ -19,7 +19,7 @@ import com.springrest.service.CustomerServiceImpl;
 @RequestMapping("/login")
 public class LoginRestController {
 	
-	Log log=LogFactory.getLog(CustomerRestController1.class);
+	Log log=LogFactory.getLog(LoginRestController.class);
 
 	@Autowired
 	CustomerServiceImpl customerService;
@@ -32,14 +32,14 @@ public class LoginRestController {
 //		return customerService.getCutomers();
 //	}
 	
-	//2
+	//1.login
 	@GetMapping("/login/{email}/{pass}")
 	public Customer validate(@PathVariable("email") String email,@PathVariable("pass") String pass) throws CustomerException
 	{
 		return customerService.validate(email,pass);
 	}
 	
-	//3
+	//2.logout
 	@PostMapping("/logout/{email}")
 	public String logout()
 	{

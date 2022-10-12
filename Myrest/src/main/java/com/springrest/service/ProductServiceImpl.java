@@ -53,6 +53,7 @@ public class ProductServiceImpl implements IProductService {
     	{
     		log.info(env.getProperty("DELETEP"));
     		productDao.deleteById(productId);
+    		return;
     	}
     	log.error(s);
     	throw new ProductException(s);

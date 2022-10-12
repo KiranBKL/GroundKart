@@ -6,6 +6,8 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -46,18 +48,19 @@ public class CartRestController {
 	
 	//1.getting cart items
 	@GetMapping("/getcart/{userId}")	
-	public List<CartItem> getCart(@PathVariable("userId") String user) throws CustomerException
+	public ResponseEntity<?> getCart(@PathVariable("userId") String user) throws CustomerException
 	{
 		Customer c=customerService.getCutomerById(user);
 		//log.info(env.getProperty("GPIC"));
 		//System.out.println(c.getCart());
 		//System.out.println(c.getCart().getCartItem());
-		return c.getCart().getCartItem();
+		return new ResponseEntity<List<CartItem>>(c.getCart().getCartItem(),HttpStatus.FOUND);
+
 	}
 	
-	//5.adding to cart
+	//2.adding to cart
 	@PostMapping("/addcart/{userId}/{productid}")
-	public String addToCart(@PathVariable("userId") String user,@PathVariable("productid") int item) throws ProductException, CustomerException, CartItemException
+	public ResponseEntity<?> addToCart(@PathVariable("userId") String user,@PathVariable("productid") int item) throws ProductException, CustomerException, CartItemException
 	{
 		
 		Customer customer=customerService.getCutomerById(user);
@@ -66,7 +69,7 @@ public class CartRestController {
 		
 		Product p=productService.getProductById(item);
 		//cart.setTotalPrice(cartPrice+p.getProductPrice());
-		List<CartItem> cartItems=getCart(user);
+		List<CartItem> cartItems=customer.getCart().getCartItem();
 		
 	   	 for (int i = 0; i < cartItems.size(); i++) 
 	   	 {
@@ -76,7 +79,8 @@ public class CartRestController {
 	   			 cartItem.setQuantity(cartItem.getQuantity() + 1);
 	   			// cartItem.setPrice(cartItem.getQuantity() * cartItem.getProduct().getProductPrice());
 	   			 cartItemService.addCartItem(cartItem);
-	   			return p.getProductName()+"added to your cart";
+	   			return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
+
 	   		 }
 	   	 }
 	   	 
@@ -87,13 +91,14 @@ public class CartRestController {
 	   	 cartItem.setCart(customer.getCart());
 	   	 cartItemService.addCartItem(cartItem);
 	   	// log.info(customer.getUserName()+" "+p.getProductName()+" "+env.getProperty("ADDTOCART"));
-	   	 return p.getProductName()+" added to your cart";
+	   	return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
+
 		
 	}
 	
 	//3.deleting from cart
 	@DeleteMapping("/removefromcart/{kartitemid}")
-	public String removeKartItem(@PathVariable("kartitemid") int id) throws CartItemException
+	public ResponseEntity<?> removeKartItem(@PathVariable("kartitemid") int id) throws CartItemException
 	{
 		//CartItem c=cartItemService.getCartItemById(id);
 		//Cart cart=c.getCart();
@@ -104,12 +109,13 @@ public class CartRestController {
 		cartItemService.removeCartItemById(id);
 		//return "huu"+id;
 		
-		return " removed item from cart";
+		return new ResponseEntity<String>(env.getProperty("RPFC"),HttpStatus.ACCEPTED);
+
 	}
 	
 	//4.updating quantity of item in cart
 	@PutMapping("/updatecartitem/{id}/{quantity}")
-	public String updateItem(@PathVariable("id") int cartItemId,@PathVariable("quantity") int quantity) throws CartItemException
+	public ResponseEntity<?> updateItem(@PathVariable("id") int cartItemId,@PathVariable("quantity") int quantity) throws CartItemException
 	{
 		CartItem cartItem=cartItemService.getCartItemById(cartItemId);
 		//cartItem.setPrice(cartItem.getProduct().getProductPrice()*quantity);
@@ -117,6 +123,7 @@ public class CartRestController {
 		cartItemService.updateCartItem(cartItem);
 		//log.info(cartItemService.getCartItemById(cartItemId).getCart().getCustomer().getUserName()+" updated quantity of");
 	
-		return " updated cart item";
+		return new ResponseEntity<String>(env.getProperty("CQOCI"),HttpStatus.ACCEPTED);
+
 	}
 }

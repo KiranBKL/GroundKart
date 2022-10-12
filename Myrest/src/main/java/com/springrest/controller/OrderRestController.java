@@ -3,6 +3,8 @@ package com.springrest.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,17 +29,20 @@ public class OrderRestController {
 	
 	//1.getting order list
 	@GetMapping("/getorders/{user}")
-	public List<Order> getOrderList(@PathVariable("user") String user) throws CustomerException
+	public ResponseEntity<?> getOrderList(@PathVariable("user") String user) throws CustomerException
 	{
 		//log.info(customerService.getCutomerById(user).getUserName()+"got the order list");
-		return customerService.getCutomerById(user).getOrderList();
+		return new ResponseEntity<List<Order>>(customerService.getCutomerById(user).getOrderList(),HttpStatus.FOUND);
+
 	}
 	
+	//2.getting order items of order
 	@GetMapping("/getorderitems/{oid}")
-	public List<OrderItem> getOrderList(@PathVariable("oid") int oid) throws OrderException
+	public ResponseEntity<?> getOrderList(@PathVariable("oid") int oid) throws OrderException
 	{
 		//log.info("getting items of order");
-		return orderService.getOrderById(oid).getOrderitemList();
+		return new ResponseEntity<List<OrderItem>>(orderService.getOrderById(oid).getOrderitemList(),HttpStatus.FOUND);
+
 	}
 
 }

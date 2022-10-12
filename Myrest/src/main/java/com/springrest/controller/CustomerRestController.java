@@ -2,6 +2,8 @@
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,9 +38,9 @@ public class CustomerRestController {
 	@Autowired
 	CustomerServiceImpl customerService;
 	
-	//1.adding customer
+	//1.registering customer
 	@PostMapping("/addcustomer")
-	public ResponseEntity<?>  addCustomer(@RequestBody Customer c,BindingResult br)
+	public ResponseEntity<?>  addCustomer(@RequestBody @Valid Customer c,BindingResult br)
 	{
 		if(br.hasErrors())
 		{
@@ -48,8 +50,8 @@ public class CustomerRestController {
 		{
 			Cart cart=new Cart();
 			c.setCart(cart);
-			
-			return new ResponseEntity<String>(env.getProperty("REGISTER"),HttpStatus.OK);
+			customerService.updateCustomer(c);
+			return new ResponseEntity<String>(env.getProperty("REGISTER"),HttpStatus.CREATED);
 		}
 		return new ResponseEntity<String>(env.getProperty("NOREG"),HttpStatus.CONFLICT);
 		//log.info(c.getUserName()+" "+env.getProperty("REGISTER"));
@@ -57,32 +59,22 @@ public class CustomerRestController {
 	
 	//2.update profile
 	@PutMapping("/updateprofile")
-	public String updateProfile(@RequestBody Customer customer) throws CustomerException
+	public ResponseEntity<?> updateProfile(@RequestBody Customer customer) throws CustomerException
 	{
 		
 		Cart  cart=customerService.getCutomerById(customer.getEmailId()).getCart();
 		customer.setCart(cart);
 		customerService.updateCustomer(customer);
-		return env.getProperty("UPDATEC");
+		return new ResponseEntity<String>(env.getProperty("UPDATEC"),HttpStatus.ACCEPTED);
+
 		//log.info(customer.getEmailId()+"updated the profile");
 	}
 	
 	//3.removing user
-	@DeleteMapping("/removeuser/{userid}")
-	public String removeCustomer(@PathVariable("userid") String custId) throws CustomerException
-	{
-		log.info("removing the user");
-		customerService.removeCustomer(custId);
-		return env.getProperty("REMOVEUSER");
-	}
+
 	
 	//4.getting list of customers
-	@GetMapping("/getcustomers")
-	public List<Customer> getCust()
-	{
-		log.info("getting the customers");
-		return customerService.getCutomers();
-	}
+
 	
 
 }

@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -13,49 +15,50 @@ public class GlobalExceptionHandler {
 
 	//1
 	@ExceptionHandler(ProductException.class)
-	public @ResponseBody ErrorInfo ProductErrorException(ProductException e,HttpServletRequest req)
+	public ResponseEntity<?>  ProductErrorException(ProductException e,HttpServletRequest req)
 	{
 		//req.getUserPrincipal()
-		return new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI());
+		return new ResponseEntity<ErrorInfo>(new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI()),HttpStatus.NOT_FOUND);
+	//	return new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI());
 	}
 	
 	//2
 	@ExceptionHandler(CustomerException.class)
-	public @ResponseBody ErrorInfo CustomerErrorException(CustomerException e,HttpServletRequest req)
+	public ResponseEntity<?> CustomerErrorException(CustomerException e,HttpServletRequest req)
 	{
 		//req.getUserPrincipal()
-		return new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI());
+		return new ResponseEntity<ErrorInfo>(new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI()),HttpStatus.NOT_FOUND);
 	}
 	
 	//3
 	@ExceptionHandler(OrderException.class)
-	public @ResponseBody ErrorInfo OrderErrorException(OrderException e,HttpServletRequest req)
+	public ResponseEntity<?> OrderErrorException(OrderException e,HttpServletRequest req)
 	{
 		//req.getUserPrincipal()
-		return new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI());
+		return new ResponseEntity<ErrorInfo>(new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI()),HttpStatus.NOT_FOUND);
 	}
 	
 	//4
 	@ExceptionHandler(CartItemException.class)
-	public @ResponseBody ErrorInfo CartItemErrorException(CartItemException e,HttpServletRequest req)
+	public ResponseEntity<?> CartItemErrorException(CartItemException e,HttpServletRequest req)
 	{
 		//req.getUserPrincipal()
-		return new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI());
+		return new ResponseEntity<ErrorInfo>(new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI()),HttpStatus.NOT_FOUND);
 	}
 	
 	//5
 	@ExceptionHandler(OrderItemException.class)
-	public @ResponseBody ErrorInfo OrderItemErrorException(OrderItemException e,HttpServletRequest req)
+	public ResponseEntity<?> OrderItemErrorException(OrderItemException e,HttpServletRequest req)
 	{
 		//req.getUserPrincipal()
-		return new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI());
+		return new ResponseEntity<ErrorInfo>(new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI()),HttpStatus.NOT_FOUND);
 	}
 	
 	//6
 	@ExceptionHandler(CartException.class)
-	public @ResponseBody ErrorInfo CartErrorException(CartException e,HttpServletRequest req)
+	public ResponseEntity<?> CartErrorException(CartException e,HttpServletRequest req)
 	{
 		//req.getUserPrincipal()
-		return new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI());
+		return new ResponseEntity<ErrorInfo>(new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI()),HttpStatus.NOT_FOUND);
 	}
 }

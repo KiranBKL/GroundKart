@@ -69,72 +69,51 @@ public class ProductRestController {
 	
 	Log log=LogFactory.getLog(ProductRestController.class);
 	
-	//1.
-	@PostMapping("/addproduct")
-	public ResponseEntity<?> addProduct(@RequestBody Product p,BindingResult br)
-	{
-		if(br.hasErrors())
-		{
-		return new ResponseEntity<String>(env.getProperty("VALIDERROR"),HttpStatus.BAD_REQUEST);
-		}
-		//Product p=new Product();
-		log.info("new product has been added");
-		productService.addProduct(p);
-		return new ResponseEntity<String>(env.getProperty("ADDPRODUCT"),HttpStatus.OK);
-	}
+	
 
-	//2
+
+	//1.Getting all products
 	@GetMapping("/getproducts")
-	public List<Product> getProduct()
+	public ResponseEntity<?> getProduct()
 	{
 		log.info("getting the products");
-		return productService.getAllProducts();
+		return new ResponseEntity<List<Product>>(productService.getAllProducts(),HttpStatus.FOUND);
 	}
 	
-	//3
-	@DeleteMapping("deleteproduct/{id}")
-	public String deleteProduct(@PathVariable("id") int id) throws ProductException
-	{
-		log.info("removing the product");
-		productService.deleteProduct(id);
-		return env.getProperty("DELETEP");
-	}
+	//
+
 	
-	//4
+	//2.Getting product by  id
 	@GetMapping("/getproduct/{pid}")
-	public Product getProduct(@PathVariable("pid") int id) throws ProductException 
+	public ResponseEntity<?>  getProduct(@PathVariable("pid") int id) throws ProductException 
 	{
-		return productService.getProductById(id);
+		return new ResponseEntity<Product>(productService.getProductById(id),HttpStatus.FOUND);
 	}
 	
-	//5
-	@PutMapping("/updateproduct")
-	public String updateProduct(@RequestBody Product p)
-	{
-		log.info("updating the product");
-		productService.updateProduct(p);
-		return env.getProperty("UPDATEP");
-	}
+	//
+
 	
-	//6
+	//3.getting product list by brand
 	@GetMapping("/getpbybrand/{brand}")
-	public List<Product> getProductByBrand(@PathVariable("brand")String brand)
+	public ResponseEntity<?> getProductByBrand(@PathVariable("brand")String brand)
 	{
-		return productService.getProductsByBrand(brand);
+		return new ResponseEntity<List<Product>>(productService.getProductsByBrand(brand),HttpStatus.FOUND);
 	}
 	
-	//7
+	//4.getting product list by name
 	@GetMapping("/getpbyname/{name}")
-	public List<Product> getProductByNamae(@PathVariable("name") String name)
+	public ResponseEntity<?> getProductByNamae(@PathVariable("name") String name)
 	{
-		return productService.getProductsByName(name);
+		return new ResponseEntity<List<Product>>(productService.getProductsByName(name),HttpStatus.FOUND);
+
 	}
 	
-	//8
+	//5.getting products of category
 	@GetMapping("/getpbycategory/{category}")
-	public List<Product> getProductByCategory(@PathVariable("category")String category)
+	public ResponseEntity<?> getProductByCategory(@PathVariable("category")String category)
 	{
-		return productService.getProductsByCategory(category);
+		return new ResponseEntity<List<Product>>(productService.getProductsByCategory(category),HttpStatus.FOUND);
+
 	}
 	
 }

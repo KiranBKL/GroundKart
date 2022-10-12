@@ -31,15 +31,16 @@ public class Product  {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
+	@NotEmpty
 	@Column(name = "category")
 	private String productCategory;
 
 	
-	@NotNull
+	@NotEmpty
 	@Column(name = "brand")
 	private String brand;
 
-	@NotNull
+	
 	@NotEmpty(message = "Product Name is mandatory")
 	@Column(name = "name")
 	private String productName;
@@ -47,11 +48,11 @@ public class Product  {
 	@NotNull
 	@NotNull(message = "Please provide some price")
 	@Column(name = "price")
-	private double productPrice;
+	private Double productPrice;
 
 	@NotNull
 	@Column(name = "unit")
-	private int unitStock;
+	private Integer unitStock;
 	
 	@OneToMany(mappedBy="product",cascade = CascadeType.ALL)
 	private List<CartItem> cartItemList;

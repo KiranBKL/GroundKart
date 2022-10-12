@@ -15,7 +15,7 @@ import com.springrest.model.*;
 import com.springrest.repository.*;
 
 @Service
-public class CustomerServiceImpl implements CustomerService {
+public class CustomerServiceImpl implements ICustomerService {
     
 	
 	Log log=LogFactory.getLog(CustomerServiceImpl.class);
