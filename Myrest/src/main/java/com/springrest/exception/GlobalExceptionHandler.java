@@ -61,4 +61,12 @@ public class GlobalExceptionHandler {
 		//req.getUserPrincipal()
 		return new ResponseEntity<ErrorInfo>(new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI()),HttpStatus.NOT_FOUND);
 	}
+	
+	//7
+	@ExceptionHandler(PaymentTypeException.class)
+	public ResponseEntity<?> PaymentTypeErrorException(PaymentTypeException e,HttpServletRequest req)
+	{
+		//req.getUserPrincipal()
+		return new ResponseEntity<ErrorInfo>(new ErrorInfo(LocalDateTime.now(),e.getMessage(),req.getRequestURI()),HttpStatus.NOT_FOUND);
+	}
 }

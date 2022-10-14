@@ -21,10 +21,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.springrest.exception.CustomerException;
+import com.springrest.exception.OrderException;
 import com.springrest.exception.ProductException;
 import com.springrest.model.Customer;
+import com.springrest.model.Order;
+import com.springrest.model.OrderItem;
+import com.springrest.model.PaymentType;
 import com.springrest.model.Product;
 import com.springrest.service.CustomerServiceImpl;
+import com.springrest.service.OrderServiceImpl;
+import com.springrest.service.PaymentTypeServiceImpl;
 import com.springrest.service.ProductServiceImpl;
 
 @RestController
@@ -39,10 +45,16 @@ public class AdminControllerUpdated
 	Environment env;
 	
 	@Autowired
+	OrderServiceImpl orderService;
+	
+	@Autowired
 	CustomerServiceImpl customerService;
 	
 	@Autowired
 	ProductServiceImpl productService;
+	
+	@Autowired
+	PaymentTypeServiceImpl paymentTypeService;
 	
 	//1.add the product
 	@PostMapping("/addproduct")
@@ -95,4 +107,70 @@ public class AdminControllerUpdated
 		return new ResponseEntity<String>(env.getProperty("REMOVEUSER"),HttpStatus.ACCEPTED);
 
 	}
+	
+	//6.add the payment type
+	@PostMapping("/addpaymenttype")
+	public ResponseEntity<?> addPaymentType(@RequestBody @Valid PaymentType p,BindingResult br)
+	{
+		if(br.hasErrors())
+		{
+		return new ResponseEntity<String>(env.getProperty("VALIDERROR"),HttpStatus.BAD_REQUEST);
+		}
+		//Product p=new Product();
+		log.info("new product has been added");
+		paymentTypeService.addPaymentType(p);
+		return new ResponseEntity<String>(env.getProperty("PTA"),HttpStatus.CREATED);
+	}
+	
+	//6.add the payment type
+	@GetMapping("/getorders/{ostatus}")
+	public ResponseEntity<?> getOrderList(@PathVariable("ostatus") String orderStatus) throws CustomerException
+	{
+		//log.info(customerService.getCutomerById(user).getUserName()+"got the order list");
+		return new ResponseEntity<List<Order>>(orderService.getOrderListByStatus(orderStatus),HttpStatus.FOUND);
+
+	}
+	
+	//7.refund
+	@PostMapping("/cancelandrefund/{oid}")
+	public ResponseEntity<?> refundOrder(@PathVariable("oid") int oid) throws OrderException
+	{
+		//log.info("getting items of order");
+		orderService.refundOrder(oid);
+		List<OrderItem> orderItemList=orderService.getOrderById(oid).getOrderitemList();
+		for(OrderItem k:orderItemList)
+		{
+			
+			k.getProduct().setUnitStock(k.getProduct().getUnitStock()+k.getQuantity());
+			productService.updateProduct(k.getProduct());
+		}
+		return new ResponseEntity<String>(env.getProperty("OCR"),HttpStatus.ACCEPTED);
+
+	}
+	
+	//8.
+	@PostMapping("/acceptreturnreturn/{oid}")
+	public ResponseEntity<?> acceptReturnOrder(@PathVariable("oid") int oid) throws OrderException
+	{
+		//log.info("getting items of order");
+		orderService.acceptReturnOrder(oid);
+		List<OrderItem> orderItemList=orderService.getOrderById(oid).getOrderitemList();
+//		for(OrderItem k:orderItemList)
+//		{
+//			
+//			k.getProduct().setUnitStock(k.getProduct().getUnitStock()+k.getQuantity());
+//			productService.updateProduct(k.getProduct());
+//		}
+		return new ResponseEntity<String>(env.getProperty("OCR"),HttpStatus.ACCEPTED);
+
+	}
+	
+	//9.
+	@GetMapping("/getpaymenttypes")
+	public ResponseEntity<?> getProduct()
+	{
+		log.info("getting the products");
+		return new ResponseEntity<List<PaymentType>>(paymentTypeService.getPaymentTypes(),HttpStatus.FOUND);
+	}
+	
 }

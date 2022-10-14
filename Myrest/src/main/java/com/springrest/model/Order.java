@@ -39,6 +39,12 @@ public class Order {
 
 	private double price;
 	
+	@ManyToOne
+	private PaymentType pType;
+	
+	
+	private String orderStatus;
+	
 	@Temporal(TemporalType.DATE)
 	private Date date;
 	
@@ -83,6 +89,28 @@ public class Order {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
+	public PaymentType getpType() {
+		return pType;
+	}
+
+	public void setpType(PaymentType pType) {
+		this.pType = pType;
+	}
+
+	public String getOrderStatus() {
+		return orderStatus;
+	}
+
+	public void setOrderStatus(String orderStatus) {
+		this.orderStatus = orderStatus;
+	}
+
+
+
+
+
+	
 	
 	
 

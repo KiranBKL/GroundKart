@@ -12,6 +12,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 
 import org.springframework.stereotype.Component;
 
@@ -20,7 +21,9 @@ import org.springframework.stereotype.Component;
 @Table(name = "customer")
 public class Customer {
 	
+	
 	@NotEmpty
+	@Pattern(regexp="^[a-z0-9]+@[a-z]+\\.[a-z]{2,3}$",message="enter the valid details")
 	@Id
 	String emailId;
 	

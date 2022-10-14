@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,16 +17,20 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.springrest.exception.CartItemException;
 import com.springrest.exception.CustomerException;
+import com.springrest.exception.OrderException;
+import com.springrest.exception.PaymentTypeException;
 import com.springrest.exception.ProductException;
 import com.springrest.model.CartItem;
 import com.springrest.model.Customer;
 import com.springrest.model.Order;
 import com.springrest.model.OrderItem;
+import com.springrest.model.PaymentType;
 import com.springrest.model.Product;
 import com.springrest.service.CartItemServiceImpl;
 import com.springrest.service.CustomerServiceImpl;
 import com.springrest.service.OrderItemServiceImpl;
 import com.springrest.service.OrderServiceImpl;
+import com.springrest.service.PaymentTypeServiceImpl;
 import com.springrest.service.ProductServiceImpl;
 
 @RestController
@@ -36,6 +41,9 @@ public class BuyRestController {
 	
 	@Autowired
 	Environment env;
+	
+	@Autowired
+	PaymentTypeServiceImpl paymentTypeService;
 	
 	@Autowired
 	CartRestController crc;
@@ -56,11 +64,11 @@ public class BuyRestController {
 	CartItemServiceImpl cartItemService;
 
 	//1.checkout the cart
-	@PostMapping("/buycart/{userId}")
-	public ResponseEntity<?> buyKart(@PathVariable("userId") String user) throws CustomerException, CartItemException
+	@PostMapping("/buycart/{userId}/{ptype}")
+	public ResponseEntity<?> buyKart(@PathVariable("userId") String user,@PathVariable("ptype") int ptid) throws CustomerException, CartItemException, OrderException, PaymentTypeException
 	{
 		//double 
-
+		
 		Customer customer=customerService.getCutomerById(user);
 	
 		List<CartItem> l=customer.getCart().getCartItem();
@@ -72,9 +80,17 @@ public class BuyRestController {
 			throw new CartItemException(env.getProperty("EMPTY"));
 		
 		}
+
+		
 		Order order=new Order();
 		order.setDate(new Date());
 		order.setCustomer(customer);
+		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
+		order.setpType(paymentType);
+		if(ptid==1)
+			order.setOrderStatus(env.getProperty("OP"));
+		else
+			order.setOrderStatus(env.getProperty("OPP"));
 		orderService.addOrder(order);
 		
 		double price=0;
@@ -108,14 +124,20 @@ public class BuyRestController {
 	}
 	
 	//2.buying single item which is cart
-	@PostMapping("/buyfromcart/{kartitemid}")
-	public ResponseEntity<?> buyFromCart(@PathVariable("kartitemid") int id) throws CartItemException
+	@PostMapping("/buyfromcart/{kartitemid}/{ptid}")
+	public ResponseEntity<?> buyFromCart(@PathVariable("kartitemid") int id,@PathVariable("ptid") int ptid) throws CartItemException, OrderException, PaymentTypeException
 	{
 		CartItem cartItem=cartItemService.getCartItemById(id);
 		Order order=new Order();
 		order.setDate(new Date());
 		order.setCustomer(cartItem.getCart().getCustomer());
 		order.setPrice(cartItem.getProduct().getProductPrice()*cartItem.getQuantity());
+		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
+		order.setpType(paymentType);
+		if(ptid==1)
+			order.setOrderStatus(env.getProperty("OP"));
+		else
+			order.setOrderStatus(env.getProperty("OPP"));
 		orderService.addOrder(order);
 		OrderItem orderItem=new OrderItem();
 		orderItem.setPrice(cartItem.getProduct().getProductPrice()*cartItem.getQuantity());
@@ -132,14 +154,21 @@ public class BuyRestController {
 	}
 	
 	//3.directly buying from product
-	@PostMapping("/directbuy/{userid}/{productid}")
-	public ResponseEntity<?> buyProduct(@PathVariable("userid") String user,@PathVariable("productid") int id) throws ProductException, CustomerException
+	@PostMapping("/directbuy/{userid}/{productid}/{ptid}")
+	public ResponseEntity<?> buyProduct(@PathVariable("userid") String user,@PathVariable("productid") int id,@PathVariable("ptid") int ptid) throws ProductException, CustomerException, OrderException, PaymentTypeException
 	{
 		Product product=productService.getProductById(id);
 		Order order=new Order();
 		order.setDate(new Date());
 		order.setCustomer(customerService.getCutomerById(user));
 		order.setPrice(product.getProductPrice());
+		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
+		order.setpType(paymentType);
+		if(ptid==1)
+			order.setOrderStatus(env.getProperty("OP"));
+		else
+			order.setOrderStatus(env.getProperty("OPP"));
+		orderService.addOrder(order);
 		orderService.addOrder(order);
 		OrderItem orderItem=new OrderItem();
 		orderItem.setPrice(product.getProductPrice());
@@ -155,4 +184,12 @@ public class BuyRestController {
 		return new ResponseEntity<String>(""+order.getPrice(),HttpStatus.ACCEPTED);
 
 	}
+	
+	@GetMapping("/getpaymenttypes")
+	public ResponseEntity<?> getProduct()
+	{
+		log.info("getting the products");
+		return new ResponseEntity<List<PaymentType>>(paymentTypeService.getPaymentTypes(),HttpStatus.FOUND);
+	}
+	
 }
