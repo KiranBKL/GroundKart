@@ -1,3 +1,4 @@
+
 package com.springrest.model;
 
 import java.util.Date;

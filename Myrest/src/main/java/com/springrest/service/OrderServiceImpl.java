@@ -73,7 +73,7 @@ public class OrderServiceImpl implements IOrderService {
 		if(orderDao.existsById(oid))
 		{
 			Order order=orderDao.findById(oid).get();
-			if(!order.getOrderStatus().equals(env.getProperty("OD"))&&order.getOrderStatus().equals(env.getProperty("OP"))&&order.getOrderStatus().equals(env.getProperty("OPP")))
+			if(!order.getOrderStatus().equals(env.getProperty("OD"))&&(order.getOrderStatus().equals(env.getProperty("OP"))||order.getOrderStatus().equals(env.getProperty("OPP"))))
 			{
 				order.setOrderStatus(env.getProperty("OD"));
 				orderDao.save(order);
