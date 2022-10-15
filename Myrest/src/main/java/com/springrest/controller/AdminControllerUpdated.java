@@ -65,8 +65,9 @@ public class AdminControllerUpdated
 		return new ResponseEntity<String>(env.getProperty("VALIDERROR"),HttpStatus.BAD_REQUEST);
 		}
 		//Product p=new Product();
-		log.info("new product has been added");
+		
 		productService.addProduct(p);
+		log.info("new product has been added");
 		return new ResponseEntity<String>(env.getProperty("ADDPRODUCT"),HttpStatus.CREATED);
 	}
 	
@@ -135,15 +136,17 @@ public class AdminControllerUpdated
 	@PostMapping("/cancelandrefund/{oid}")
 	public ResponseEntity<?> refundOrder(@PathVariable("oid") int oid) throws OrderException
 	{
-		//log.info("getting items of order");
+//		//log.info("getting items of order");
+//		orderService.refundOrder(oid);
+//		List<OrderItem> orderItemList=orderService.getOrderById(oid).getOrderitemList();
+//		for(OrderItem k:orderItemList)
+//		{
+//			
+//			k.getProduct().setUnitStock(k.getProduct().getUnitStock()+k.getQuantity());
+//			productService.updateProduct(k.getProduct());
+//		}
+		
 		orderService.refundOrder(oid);
-		List<OrderItem> orderItemList=orderService.getOrderById(oid).getOrderitemList();
-		for(OrderItem k:orderItemList)
-		{
-			
-			k.getProduct().setUnitStock(k.getProduct().getUnitStock()+k.getQuantity());
-			productService.updateProduct(k.getProduct());
-		}
 		return new ResponseEntity<String>(env.getProperty("OCR"),HttpStatus.ACCEPTED);
 
 	}
@@ -154,7 +157,7 @@ public class AdminControllerUpdated
 	{
 		//log.info("getting items of order");
 		orderService.acceptReturnOrder(oid);
-		List<OrderItem> orderItemList=orderService.getOrderById(oid).getOrderitemList();
+	//	List<OrderItem> orderItemList=orderService.getOrderById(oid).getOrderitemList();
 //		for(OrderItem k:orderItemList)
 //		{
 //			

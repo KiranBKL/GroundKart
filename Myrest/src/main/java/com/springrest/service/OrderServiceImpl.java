@@ -17,6 +17,7 @@ import org.springframework.stereotype.Service;
 import com.springrest.controller.ProductRestController;
 import com.springrest.exception.OrderException;
 import com.springrest.model.Order;
+import com.springrest.model.OrderItem;
 import com.springrest.model.Product;
 import com.springrest.repository.OrderRepository;
 
@@ -31,6 +32,9 @@ public class OrderServiceImpl implements IOrderService {
 	
 	@Autowired
 	private OrderRepository orderDao;
+	
+	@Autowired
+	ProductServiceImpl productService;
 	
 	@PostConstruct
 	public void postConstruct()
@@ -73,7 +77,7 @@ public class OrderServiceImpl implements IOrderService {
 		if(orderDao.existsById(oid))
 		{
 			Order order=orderDao.findById(oid).get();
-			if(!order.getOrderStatus().equals(env.getProperty("OD"))&&(order.getOrderStatus().equals(env.getProperty("OP"))||order.getOrderStatus().equals(env.getProperty("OPP"))))
+			if((order.getOrderStatus().equals(env.getProperty("OP"))||order.getOrderStatus().equals(env.getProperty("OPP"))))
 			{
 				order.setOrderStatus(env.getProperty("OD"));
 				orderDao.save(order);
@@ -98,12 +102,26 @@ public class OrderServiceImpl implements IOrderService {
 			{
 				order.setOrderStatus(env.getProperty("OC"));
 				orderDao.save(order);
+				List<OrderItem> orderItemList=getOrderById(oid).getOrderitemList();
+				for(OrderItem k:orderItemList)
+				{
+					
+					k.getProduct().setUnitStock(k.getProduct().getUnitStock()+k.getQuantity());
+					productService.updateProduct(k.getProduct());
+				}
 				return;
 			}
 			else if(order.getOrderStatus().equals(env.getProperty("OPP")))
 			{
 				order.setOrderStatus(env.getProperty("OCP"));
 				orderDao.save(order);
+				List<OrderItem> orderItemList=getOrderById(oid).getOrderitemList();
+				for(OrderItem k:orderItemList)
+				{
+					
+					k.getProduct().setUnitStock(k.getProduct().getUnitStock()+k.getQuantity());
+					productService.updateProduct(k.getProduct());
+				}
 				return;
 			}
 			log.warn(env.getProperty("NOORDERTOCANCEL"));
@@ -121,7 +139,7 @@ public class OrderServiceImpl implements IOrderService {
 		if(orderDao.existsById(oid))
 		{
 			Order order=orderDao.findById(oid).get();
-			if(order.getOrderStatus().equals(env.getProperty("OCP")) || order.getOrderStatus().equals(env.getProperty("OR")))
+			if(order.getOrderStatus().equals(env.getProperty("OCP")))
 			{
 				order.setOrderStatus(env.getProperty("OCR"));
 				orderDao.save(order);
@@ -157,6 +175,7 @@ public class OrderServiceImpl implements IOrderService {
 			{
 				order.setOrderStatus(env.getProperty("OR"));
 				orderDao.save(order);
+				
 				return;
 			}
 			
@@ -182,6 +201,13 @@ public class OrderServiceImpl implements IOrderService {
 			{
 				order.setOrderStatus(env.getProperty("OCR"));
 				orderDao.save(order);
+				List<OrderItem> orderItemList=getOrderById(oid).getOrderitemList();
+				for(OrderItem k:orderItemList)
+				{
+					
+					k.getProduct().setUnitStock(k.getProduct().getUnitStock()+k.getQuantity());
+					productService.updateProduct(k.getProduct());
+				}
 				return;
 			}
 			

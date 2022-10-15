@@ -8,10 +8,14 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.springrest.controller.ProductRestController;
 import com.springrest.exception.CartItemException;
+import com.springrest.exception.CustomerException;
+import com.springrest.exception.ProductException;
 import com.springrest.model.*;
 import com.springrest.repository.CartItemRepository;
 
@@ -26,24 +30,61 @@ public class CartItemServiceImpl implements ICartItemService {
     @Autowired
     private CartItemRepository cartItemDao;
     
+	@Autowired
+	CustomerServiceImpl customerService;
+	
+	@Autowired
+	ProductServiceImpl productService;
+    
     @PostConstruct
 	public void postConstruct()
 	{
 		this.s=env.getProperty("NOCARTITEM");
 	}
 
-    public void addCartItem(CartItem cartItem) {
+    public ResponseEntity<?> addCartItem(String user,int item) throws CustomerException, ProductException {
+    	
+		Customer customer=customerService.getCutomerById(user);
+		Cart cart=customer.getCart();
+		//double cartPrice=cart.getTotalPrice();
+		
+		Product p=productService.getProductById(item);
+		//cart.setTotalPrice(cartPrice+p.getProductPrice());
+		List<CartItem> cartItems=customer.getCart().getCartItem();
+		
+	   	 for (int i = 0; i < cartItems.size(); i++) 
+	   	 {
+	   		 CartItem cartItem = cartItems.get(i);
+	   		 if (p.getId() == (cartItem.getProduct().getId()))
+	   		 {
+	   			 cartItem.setQuantity(cartItem.getQuantity() + 1);
+	   			// cartItem.setPrice(cartItem.getQuantity() * cartItem.getProduct().getProductPrice());
+	   			// cartItemService.addCartItem(cartItem);
+	   			cartItemDao.save(cartItem);
+	   			log.info(cartItem.getCart().getCustomer().getUserName()+" "+env.getProperty("ADDETOCART"));
+	   			return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
+
+	   		 }
+	   	 }
+	   	 
+	   	 CartItem cartItem = new CartItem();
+	   	 cartItem.setQuantity(1);
+	   	 cartItem.setProduct(p);
+	   	// cartItem.setPrice(p.getProductPrice());
+	   	 cartItem.setCart(customer.getCart());
+	   	cartItemDao.save(cartItem);
     	log.info(cartItem.getCart().getCustomer().getUserName()+" "+env.getProperty("ADDETOCART"));
-   	 	cartItemDao.save(cartItem);
+    	return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
+   	 	
 
     }
 
-    public void removeCartItemById(int cartItemId) throws CartItemException {
+    public ResponseEntity<?>removeCartItemById(int cartItemId) throws CartItemException {
     	if(cartItemDao.existsById(cartItemId))
     	{
     		log.info(env.getProperty("REMOVEUSER"));
     		cartItemDao.deleteById(cartItemId);
-    		return;
+    		return new ResponseEntity<String>(env.getProperty("RPFC"),HttpStatus.ACCEPTED);
     	}
     	log.error(s);
     	throw new CartItemException(s);
@@ -67,10 +108,14 @@ public class CartItemServiceImpl implements ICartItemService {
 		
        }
 
-	public void updateCartItem(CartItem c) {
+	public ResponseEntity<?> updateCartItem(int cartItemId,int quantity) throws CartItemException {
 		// TODO Auto-generated method stub
+		CartItem cartItem=getCartItemById(cartItemId);
+		//cartItem.setPrice(cartItem.getProduct().getProductPrice()*quantity);
+		cartItem.setQuantity(quantity);
 		log.info(env.getProperty("CQOCI"));
-		 cartItemDao.save(c);
+		 cartItemDao.save(cartItem);
+		 return new ResponseEntity<String>(env.getProperty("CQOCI"),HttpStatus.ACCEPTED);
 	}
 	
 	public void reomveCartList(List<CartItem> l)

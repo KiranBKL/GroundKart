@@ -63,36 +63,35 @@ public class CartRestController {
 	public ResponseEntity<?> addToCart(@PathVariable("userId") String user,@PathVariable("productid") int item) throws ProductException, CustomerException, CartItemException
 	{
 		
-		Customer customer=customerService.getCutomerById(user);
-		Cart cart=customer.getCart();
-		//double cartPrice=cart.getTotalPrice();
-		
-		Product p=productService.getProductById(item);
-		//cart.setTotalPrice(cartPrice+p.getProductPrice());
-		List<CartItem> cartItems=customer.getCart().getCartItem();
-		
-	   	 for (int i = 0; i < cartItems.size(); i++) 
-	   	 {
-	   		 CartItem cartItem = cartItems.get(i);
-	   		 if (p.getId() == (cartItem.getProduct().getId()))
-	   		 {
-	   			 cartItem.setQuantity(cartItem.getQuantity() + 1);
-	   			// cartItem.setPrice(cartItem.getQuantity() * cartItem.getProduct().getProductPrice());
-	   			 cartItemService.addCartItem(cartItem);
-	   			return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
-
-	   		 }
-	   	 }
-	   	 
-	   	 CartItem cartItem = new CartItem();
-	   	 cartItem.setQuantity(1);
-	   	 cartItem.setProduct(p);
-	   	// cartItem.setPrice(p.getProductPrice());
-	   	 cartItem.setCart(customer.getCart());
-	   	 cartItemService.addCartItem(cartItem);
+//		Customer customer=customerService.getCutomerById(user);
+//		Cart cart=customer.getCart();
+//		//double cartPrice=cart.getTotalPrice();
+//		
+//		Product p=productService.getProductById(item);
+//		//cart.setTotalPrice(cartPrice+p.getProductPrice());
+//		List<CartItem> cartItems=customer.getCart().getCartItem();
+//		
+//	   	 for (int i = 0; i < cartItems.size(); i++) 
+//	   	 {
+//	   		 CartItem cartItem = cartItems.get(i);
+//	   		 if (p.getId() == (cartItem.getProduct().getId()))
+//	   		 {
+//	   			 cartItem.setQuantity(cartItem.getQuantity() + 1);
+//	   			// cartItem.setPrice(cartItem.getQuantity() * cartItem.getProduct().getProductPrice());
+//	   			 cartItemService.addCartItem(cartItem);
+//	   			return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
+//
+//	   		 }
+//	   	 }
+//	   	 
+//	   	 CartItem cartItem = new CartItem();
+//	   	 cartItem.setQuantity(1);
+//	   	 cartItem.setProduct(p);
+//	   	// cartItem.setPrice(p.getProductPrice());
+//	   	 cartItem.setCart(customer.getCart());
+	   	
 	   	// log.info(customer.getUserName()+" "+p.getProductName()+" "+env.getProperty("ADDTOCART"));
-	   	return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
-
+	   	return  cartItemService.addCartItem(user,item);
 		
 	}
 	
@@ -106,10 +105,10 @@ public class CartRestController {
 		
 		//cart.deleteKartItem(c);
 		//log.info(cartItemService.getCartItemById(id).getCart().getCustomer().getUserName()+"removed "+cartItemService.getCartItemById(id).getProduct().getProductName()+"removed cart");
-		cartItemService.removeCartItemById(id);
+		
 		//return "huu"+id;
 		
-		return new ResponseEntity<String>(env.getProperty("RPFC"),HttpStatus.ACCEPTED);
+		return cartItemService.removeCartItemById(id);
 
 	}
 	
@@ -117,13 +116,13 @@ public class CartRestController {
 	@PutMapping("/updatecartitem/{id}/{quantity}")
 	public ResponseEntity<?> updateItem(@PathVariable("id") int cartItemId,@PathVariable("quantity") int quantity) throws CartItemException
 	{
-		CartItem cartItem=cartItemService.getCartItemById(cartItemId);
+		//CartItem cartItem=cartItemService.getCartItemById(cartItemId);
 		//cartItem.setPrice(cartItem.getProduct().getProductPrice()*quantity);
-		cartItem.setQuantity(quantity);
-		cartItemService.updateCartItem(cartItem);
+		//cartItem.setQuantity(quantity);
+		
 		//log.info(cartItemService.getCartItemById(cartItemId).getCart().getCustomer().getUserName()+" updated quantity of");
 	
-		return new ResponseEntity<String>(env.getProperty("CQOCI"),HttpStatus.ACCEPTED);
+		return cartItemService.updateCartItem(cartItemId,quantity);
 
 	}
 }
