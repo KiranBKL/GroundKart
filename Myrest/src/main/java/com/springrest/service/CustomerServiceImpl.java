@@ -37,6 +37,9 @@ public class CustomerServiceImpl implements ICustomerService {
     public boolean addCustomer(Customer customer) {  
     	if(!customerDao.existsById(customer.getEmailId()))
     	{
+			Cart cart=new Cart();
+			customer.setCart(cart);
+			//customerService.updateCustomer(c);
     	log.info(env.getProperty("REGISTER"));
    	 	customerDao.save(customer);
    	 	return true;
@@ -74,10 +77,13 @@ public class CustomerServiceImpl implements ICustomerService {
 		return customerDao.findAll();
 	}
 	
-	public void updateCustomer(Customer customer)
+	public void updateCustomer(Customer customer) throws CustomerException
 	{
-		log.info(customer.getUserName()+" "+env.getProperty("UPDATEC"));
+		Cart  cart=getCutomerById(customer.getEmailId()).getCart();
+		customer.setCart(cart);
 		customerDao.save(customer);
+		log.info(customer.getUserName()+" "+env.getProperty("UPDATEC"));
+
 	}
 
 	public Customer validate(String email, String pass) throws CustomerException {

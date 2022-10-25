@@ -8,9 +8,9 @@ import com.springrest.exception.ProductException;
 import com.springrest.model.*;
 
 public interface ICartItemService {
-	ResponseEntity<?> addCartItem(String user,int item) throws CustomerException, ProductException;
+	void addCartItem(String user,int item) throws CustomerException, ProductException;
 
-	ResponseEntity<?> removeCartItemById(int CartItemId) throws CartItemException;
+	void removeCartItemById(int CartItemId) throws CartItemException;
 
     
 }

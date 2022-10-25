@@ -69,54 +69,54 @@ public class BuyRestController {
 	{
 		//double 
 		
-		Customer customer=customerService.getCutomerById(user);
-	
-		List<CartItem> l=customer.getCart().getCartItem();
-		//System.out.println(l);
-		//ListIterator<CartItem> k= l.listIterator();
-		if(l.isEmpty())
-		{
-			log.error(env.getProperty("EMPTY"));
-			throw new CartItemException(env.getProperty("EMPTY"));
+//		Customer customer=customerService.getCutomerById(user);
+//	
+//		List<CartItem> l=customer.getCart().getCartItem();
+//		//System.out.println(l);
+//		//ListIterator<CartItem> k= l.listIterator();
+//		if(l.isEmpty())
+//		{
+//			log.error(env.getProperty("EMPTY"));
+//			throw new CartItemException(env.getProperty("EMPTY"));
+//		
+//		}
+//
+//		
+//		Order order=new Order();
+//		order.setDate(new Date());
+//		order.setCustomer(customer);
+//		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
+//		order.setpType(paymentType);
+//		if(ptid==1)
+//			order.setOrderStatus(env.getProperty("OP"));
+//		else
+//			order.setOrderStatus(env.getProperty("OPP"));
+//		orderService.addOrder(order);
+//		
+//		double price=0;
+//		for(CartItem k:l)
+//		{
+//			
+//			OrderItem o=new OrderItem();
+//			
+//			double oPrice=k.getProduct().getProductPrice()*k.getQuantity();
+//			price=price+oPrice;
+//			o.setQuantity(k.getQuantity());
+//			o.setPrice(oPrice);
+//			o.setProduct(k.getProduct());
+//			
+//			o.setOrder(order);
+//			//removeKartItem(k.next().getId());
+//			//ci.delete(k.next());
+//			k.getProduct().setUnitStock(k.getProduct().getUnitStock()-k.getQuantity());
+//			productService.updateProduct(k.getProduct());
+//			orderItemService.addOrdItem(o);
+//		}
+//		order.setPrice(price);
+//		//customer.getCart().setTotalPrice(0);
+//		cartItemService.reomveCartList(l);
 		
-		}
-
-		
-		Order order=new Order();
-		order.setDate(new Date());
-		order.setCustomer(customer);
-		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
-		order.setpType(paymentType);
-		if(ptid==1)
-			order.setOrderStatus(env.getProperty("OP"));
-		else
-			order.setOrderStatus(env.getProperty("OPP"));
-		orderService.addOrder(order);
-		
-		double price=0;
-		for(CartItem k:l)
-		{
-			
-			OrderItem o=new OrderItem();
-			
-			double oPrice=k.getProduct().getProductPrice()*k.getQuantity();
-			price=price+oPrice;
-			o.setQuantity(k.getQuantity());
-			o.setPrice(oPrice);
-			o.setProduct(k.getProduct());
-			
-			o.setOrder(order);
-			//removeKartItem(k.next().getId());
-			//ci.delete(k.next());
-			k.getProduct().setUnitStock(k.getProduct().getUnitStock()-k.getQuantity());
-			productService.updateProduct(k.getProduct());
-			orderItemService.addOrdItem(o);
-		}
-		order.setPrice(price);
-		//customer.getCart().setTotalPrice(0);
-		cartItemService.reomveCartList(l);
-		
-		return new ResponseEntity<String>(""+price,HttpStatus.ACCEPTED);
+		return new ResponseEntity<String>(""+orderService.buyKart(user,ptid),HttpStatus.ACCEPTED);
 
 		//l.clear();
 		//log.info(customer.getUserName()+"Bought the cart");
@@ -127,29 +127,31 @@ public class BuyRestController {
 	@PostMapping("/buyfromcart/{kartitemid}/{ptid}")
 	public ResponseEntity<?> buyFromCart(@PathVariable("kartitemid") int id,@PathVariable("ptid") int ptid) throws CartItemException, OrderException, PaymentTypeException
 	{
-		CartItem cartItem=cartItemService.getCartItemById(id);
-		Order order=new Order();
-		order.setDate(new Date());
-		order.setCustomer(cartItem.getCart().getCustomer());
-		order.setPrice(cartItem.getProduct().getProductPrice()*cartItem.getQuantity());
-		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
-		order.setpType(paymentType);
-		if(ptid==1)
-			order.setOrderStatus(env.getProperty("OP"));
-		else
-			order.setOrderStatus(env.getProperty("OPP"));
-		orderService.addOrder(order);
-		OrderItem orderItem=new OrderItem();
-		orderItem.setPrice(cartItem.getProduct().getProductPrice()*cartItem.getQuantity());
-		orderItem.setProduct(cartItem.getProduct());
-		orderItem.setQuantity(cartItem.getQuantity());
-		orderItem.setOrder(order);
-		cartItem.getProduct().setUnitStock(cartItem.getProduct().getUnitStock()-cartItem.getQuantity());
-		productService.updateProduct(cartItem.getProduct());
-		orderItemService.addOrdItem(orderItem);
-		//log.info(cartItem.getCart().getCustomer().getUserName()+"Bought the item from cart");
-		crc.removeKartItem(id);
-		return new ResponseEntity<String>(""+order.getPrice(),HttpStatus.ACCEPTED);
+//		CartItem cartItem=cartItemService.getCartItemById(id);
+//		Order order=new Order();
+//		order.setDate(new Date());
+//		order.setCustomer(cartItem.getCart().getCustomer());
+//		order.setPrice(cartItem.getProduct().getProductPrice()*cartItem.getQuantity());
+//		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
+//		order.setpType(paymentType);
+//		if(ptid==1)
+//			order.setOrderStatus(env.getProperty("OP"));
+//		else
+//			order.setOrderStatus(env.getProperty("OPP"));
+//		orderService.addOrder(order);
+//		OrderItem orderItem=new OrderItem();
+//		orderItem.setPrice(cartItem.getProduct().getProductPrice()*cartItem.getQuantity());
+//		orderItem.setProduct(cartItem.getProduct());
+//		orderItem.setQuantity(cartItem.getQuantity());
+//		orderItem.setOrder(order);
+//		cartItem.getProduct().setUnitStock(cartItem.getProduct().getUnitStock()-cartItem.getQuantity());
+//		productService.updateProduct(cartItem.getProduct());
+//		orderItemService.addOrdItem(orderItem);
+//		//log.info(cartItem.getCart().getCustomer().getUserName()+"Bought the item from cart");
+//		crc.removeKartItem(id);
+//		return new ResponseEntity<String>(""+order.getPrice(),HttpStatus.ACCEPTED);
+		
+		return new ResponseEntity<String>(""+orderService.buyFromKart(id, ptid),HttpStatus.ACCEPTED);
 
 	}
 	
@@ -157,31 +159,31 @@ public class BuyRestController {
 	@PostMapping("/directbuy/{userid}/{productid}/{ptid}")
 	public ResponseEntity<?> buyProduct(@PathVariable("userid") String user,@PathVariable("productid") int id,@PathVariable("ptid") int ptid) throws ProductException, CustomerException, OrderException, PaymentTypeException
 	{
-		Product product=productService.getProductById(id);
-		Order order=new Order();
-		order.setDate(new Date());
-		order.setCustomer(customerService.getCutomerById(user));
-		order.setPrice(product.getProductPrice());
-		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
-		order.setpType(paymentType);
-		if(ptid==1)
-			order.setOrderStatus(env.getProperty("OP"));
-		else
-			order.setOrderStatus(env.getProperty("OPP"));
-		orderService.addOrder(order);
-		orderService.addOrder(order);
-		OrderItem orderItem=new OrderItem();
-		orderItem.setPrice(product.getProductPrice());
-		orderItem.setProduct(product);
-		orderItem.setQuantity(1);
-		orderItem.setOrder(order);
-		//k.getProduct().setUnitStock(k.getProduct().getUnitStock()-k.getQuantity());
-		product.setUnitStock(product.getUnitStock()-1);
-		productService.updateProduct(product);
-		orderItemService.addOrdItem(orderItem);
+//		Product product=productService.getProductById(id);
+//		Order order=new Order();
+//		order.setDate(new Date());
+//		order.setCustomer(customerService.getCutomerById(user));
+//		order.setPrice(product.getProductPrice());
+//		PaymentType paymentType=paymentTypeService.getPaymentTypeById(ptid);
+//		order.setpType(paymentType);
+//		if(ptid==1)
+//			order.setOrderStatus(env.getProperty("OP"));
+//		else
+//			order.setOrderStatus(env.getProperty("OPP"));
+//		orderService.addOrder(order);
+//		orderService.addOrder(order);
+//		OrderItem orderItem=new OrderItem();
+//		orderItem.setPrice(product.getProductPrice());
+//		orderItem.setProduct(product);
+//		orderItem.setQuantity(1);
+//		orderItem.setOrder(order);
+//		//k.getProduct().setUnitStock(k.getProduct().getUnitStock()-k.getQuantity());
+//		product.setUnitStock(product.getUnitStock()-1);
+//		productService.updateProduct(product);
+//		orderItemService.addOrdItem(orderItem);
 		//log.info(customerService.getCutomerById(user).getUserName()+"Bought the item from home");
 		
-		return new ResponseEntity<String>(""+order.getPrice(),HttpStatus.ACCEPTED);
+		return new ResponseEntity<String>(""+orderService.buyProduct(user, id, ptid),HttpStatus.ACCEPTED);
 
 	}
 	

@@ -48,9 +48,9 @@ public class CustomerRestController {
 		}
 		if(customerService.addCustomer(c))
 		{
-			Cart cart=new Cart();
-			c.setCart(cart);
-			customerService.updateCustomer(c);
+//			Cart cart=new Cart();
+//			c.setCart(cart);
+//			customerService.updateCustomer(c);
 			return new ResponseEntity<String>(env.getProperty("REGISTER"),HttpStatus.CREATED);
 		}
 		return new ResponseEntity<String>(env.getProperty("NOREG"),HttpStatus.CONFLICT);
@@ -62,8 +62,8 @@ public class CustomerRestController {
 	public ResponseEntity<?> updateProfile(@RequestBody Customer customer) throws CustomerException
 	{
 		
-		Cart  cart=customerService.getCutomerById(customer.getEmailId()).getCart();
-		customer.setCart(cart);
+//		Cart  cart=customerService.getCutomerById(customer.getEmailId()).getCart();
+//		customer.setCart(cart);
 		customerService.updateCustomer(customer);
 		return new ResponseEntity<String>(env.getProperty("UPDATEC"),HttpStatus.ACCEPTED);
 

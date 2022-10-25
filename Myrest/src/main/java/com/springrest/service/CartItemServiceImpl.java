@@ -42,7 +42,7 @@ public class CartItemServiceImpl implements ICartItemService {
 		this.s=env.getProperty("NOCARTITEM");
 	}
 
-    public ResponseEntity<?> addCartItem(String user,int item) throws CustomerException, ProductException {
+    public void addCartItem(String user,int item) throws CustomerException, ProductException {
     	
 		Customer customer=customerService.getCutomerById(user);
 		Cart cart=customer.getCart();
@@ -62,7 +62,7 @@ public class CartItemServiceImpl implements ICartItemService {
 	   			// cartItemService.addCartItem(cartItem);
 	   			cartItemDao.save(cartItem);
 	   			log.info(cartItem.getCart().getCustomer().getUserName()+" "+env.getProperty("ADDETOCART"));
-	   			return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
+	   			return;
 
 	   		 }
 	   	 }
@@ -74,17 +74,17 @@ public class CartItemServiceImpl implements ICartItemService {
 	   	 cartItem.setCart(customer.getCart());
 	   	cartItemDao.save(cartItem);
     	log.info(cartItem.getCart().getCustomer().getUserName()+" "+env.getProperty("ADDETOCART"));
-    	return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.ACCEPTED);
+    	return ;
    	 	
 
     }
 
-    public ResponseEntity<?>removeCartItemById(int cartItemId) throws CartItemException {
+    public void removeCartItemById(int cartItemId) throws CartItemException {
     	if(cartItemDao.existsById(cartItemId))
     	{
     		log.info(env.getProperty("REMOVEUSER"));
     		cartItemDao.deleteById(cartItemId);
-    		return new ResponseEntity<String>(env.getProperty("RPFC"),HttpStatus.ACCEPTED);
+    		return;
     	}
     	log.error(s);
     	throw new CartItemException(s);
@@ -108,14 +108,14 @@ public class CartItemServiceImpl implements ICartItemService {
 		
        }
 
-	public ResponseEntity<?> updateCartItem(int cartItemId,int quantity) throws CartItemException {
+	public void updateCartItem(int cartItemId,int quantity) throws CartItemException {
 		// TODO Auto-generated method stub
 		CartItem cartItem=getCartItemById(cartItemId);
 		//cartItem.setPrice(cartItem.getProduct().getProductPrice()*quantity);
 		cartItem.setQuantity(quantity);
 		log.info(env.getProperty("CQOCI"));
 		 cartItemDao.save(cartItem);
-		 return new ResponseEntity<String>(env.getProperty("CQOCI"),HttpStatus.ACCEPTED);
+		 
 	}
 	
 	public void reomveCartList(List<CartItem> l)

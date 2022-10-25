@@ -91,7 +91,9 @@ public class CartRestController {
 //	   	 cartItem.setCart(customer.getCart());
 	   	
 	   	// log.info(customer.getUserName()+" "+p.getProductName()+" "+env.getProperty("ADDTOCART"));
-	   	return  cartItemService.addCartItem(user,item);
+		cartItemService.addCartItem(user,item);
+		return new ResponseEntity<String>(env.getProperty("ADDTOCART"),HttpStatus.CREATED);
+	 
 		
 	}
 	
@@ -107,8 +109,8 @@ public class CartRestController {
 		//log.info(cartItemService.getCartItemById(id).getCart().getCustomer().getUserName()+"removed "+cartItemService.getCartItemById(id).getProduct().getProductName()+"removed cart");
 		
 		//return "huu"+id;
-		
-		return cartItemService.removeCartItemById(id);
+		cartItemService.removeCartItemById(id);
+		return new ResponseEntity<String>(env.getProperty("RPFC"),HttpStatus.ACCEPTED);
 
 	}
 	
@@ -122,7 +124,8 @@ public class CartRestController {
 		
 		//log.info(cartItemService.getCartItemById(cartItemId).getCart().getCustomer().getUserName()+" updated quantity of");
 	
-		return cartItemService.updateCartItem(cartItemId,quantity);
+		cartItemService.updateCartItem(cartItemId,quantity);
+		return new ResponseEntity<String>(env.getProperty("CQOCI"),HttpStatus.ACCEPTED);
 
 	}
 }
